@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "Witness": {
+      "title": "Witness",
+      "description": "A public witness record capturing a shared perceived moment.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "human_id": { "type": "string" },
+        "text": { "type": "string" },
+        "created_at_utc": { "type": "string" },
+        "local_hour": { "type": "number" },
+        "voice_family": { "type": "string" },
+        "city": { "type": "string" },
+        "country_code": { "type": "string" },
+        "demo_theme": { "type": "string" },
+        "demo_x": { "type": "number" },
+        "demo_y": { "type": "number" },
+        "is_user": { "type": "boolean" }
+      },
+      "required": ["text", "created_at_utc", "voice_family", "demo_x", "demo_y"]
+    }
+  },
+  "firestore": {
+    "/witnesses/{witnessId}": {
+      "entity": "Witness",
+      "description": "Collection of all public witnessed moments in the art exhibition."
+    }
+  }
+}

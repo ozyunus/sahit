@@ -1,5 +1,15 @@
 import seedData from '../data/witnesses.json';
 import { FilterState, Human, HumanCredential, VoiceFamily, Witness, WitnessEdge } from '../types';
+import { db } from './firebase';
+import {
+  collection,
+  addDoc,
+  query,
+  orderBy,
+  limit as firestoreLimit,
+  onSnapshot,
+  getDocs,
+} from 'firebase/firestore';
 
 const STORAGE_KEY_HUMAN = 'sahitlik_human_profile_v1';
 const STORAGE_KEY_USER_WITNESSES = 'sahitlik_user_witnesses_v1';
@@ -40,14 +50,11 @@ export class WitnessRepository {
   private currentCredential: HumanCredential | null = null;
   private initialized = false;
   private newWitnessListeners: Set<(witness: Witness) => void> = new Set();
-  private eventSource: EventSource | null = null;
   private broadcastChannel: BroadcastChannel | null = null;
-  private lastSyncUtc: string = new Date().toISOString();
-  private reconnectTimer: any = null;
 
   constructor() {
     this.init();
-    this.initRealtimeStream();
+    this.initFirestore();
     this.initBroadcastChannel();
   }
 
@@ -76,10 +83,49 @@ export class WitnessRepository {
     this.witnesses = [...userWitnesses, ...seeds];
     this.initHumanIdentity();
     this.initialized = true;
+  }
 
-    // Initial server synchronization in background
-    if (typeof window !== 'undefined') {
-      this.syncFromServer();
+  // Realtime Cloud Firestore Synchronization (works 100% on Vercel across phones & desktops)
+  private initFirestore() {
+    if (typeof window === 'undefined') return;
+
+    try {
+      const witnessesCol = collection(db, 'witnesses');
+      const q = query(witnessesCol, orderBy('created_at_utc', 'desc'), firestoreLimit(100));
+
+      let isInitialLoad = true;
+      onSnapshot(
+        q,
+        (snapshot) => {
+          snapshot.docChanges().forEach((change) => {
+            if (change.type === 'added') {
+              const data = change.doc.data() as Witness;
+              const docId = change.doc.id;
+              const incoming: Witness = { ...data, id: data.id || docId };
+
+              const exists = this.witnesses.some(
+                (w) =>
+                  w.id === incoming.id ||
+                  (w.text === incoming.text && w.created_at_utc === incoming.created_at_utc)
+              );
+
+              if (!exists) {
+                this.witnesses.unshift(incoming);
+                // Trigger live celebration if arrived in real-time
+                if (!isInitialLoad) {
+                  this.notifyListeners(incoming);
+                }
+              }
+            }
+          });
+          isInitialLoad = false;
+        },
+        (err) => {
+          console.warn('[Firestore] Snapshot listener info:', err);
+        }
+      );
+    } catch (err) {
+      console.warn('[Firestore] Init error:', err);
     }
   }
 
@@ -170,77 +216,6 @@ export class WitnessRepository {
     }
   }
 
-  // Realtime Server-Sent Events (SSE) Stream
-  private initRealtimeStream() {
-    if (typeof window === 'undefined' || !('EventSource' in window)) return;
-
-    try {
-      if (this.eventSource) {
-        this.eventSource.close();
-      }
-
-      this.eventSource = new EventSource('/api/witnesses/stream');
-
-      this.eventSource.onmessage = (event) => {
-        try {
-          const data = JSON.parse(event.data);
-          if (data.type === 'new_witness' && data.witness) {
-            const incoming: Witness = data.witness;
-            const exists = this.witnesses.some((w) => w.id === incoming.id);
-            if (!exists) {
-              this.witnesses.unshift(incoming);
-              this.lastSyncUtc = incoming.created_at_utc;
-              this.notifyListeners(incoming);
-            }
-          }
-        } catch {
-          // Heartbeat comment
-        }
-      };
-
-      this.eventSource.onerror = () => {
-        if (this.eventSource) {
-          this.eventSource.close();
-          this.eventSource = null;
-        }
-        if (!this.reconnectTimer) {
-          this.reconnectTimer = setTimeout(() => {
-            this.reconnectTimer = null;
-            this.syncFromServer();
-            this.initRealtimeStream();
-          }, 3000);
-        }
-      };
-    } catch (err) {
-      console.error('[WitnessRepo] Failed to setup realtime stream:', err);
-    }
-  }
-
-  // Catch up missing witnesses created since last known timestamp
-  public async syncFromServer() {
-    if (typeof window === 'undefined') return;
-    try {
-      const url = this.lastSyncUtc
-        ? `/api/witnesses?since=${encodeURIComponent(this.lastSyncUtc)}`
-        : '/api/witnesses';
-      const res = await fetch(url);
-      if (!res.ok) return;
-      const data = await res.json();
-      if (Array.isArray(data.witnesses)) {
-        for (const w of data.witnesses) {
-          if (!this.witnesses.some((existing) => existing.id === w.id)) {
-            this.witnesses.unshift(w);
-          }
-        }
-        if (data.witnesses.length > 0) {
-          this.lastSyncUtc = new Date().toISOString();
-        }
-      }
-    } catch {
-      // Offline fallback
-    }
-  }
-
   public subscribeToNewWitnesses(callback: (w: Witness) => void): () => void {
     this.newWitnessListeners.add(callback);
     return () => {
@@ -252,20 +227,25 @@ export class WitnessRepository {
     this.init();
     if (typeof window !== 'undefined') {
       try {
-        const res = await fetch(`/api/witnesses?limit=${limit}`);
-        if (res.ok) {
-          const data = await res.json();
-          if (Array.isArray(data.witnesses) && data.witnesses.length > 0) {
-            for (const remote of data.witnesses) {
-              if (!this.witnesses.some((w) => w.id === remote.id)) {
-                this.witnesses.push(remote);
-              }
+        const witnessesCol = collection(db, 'witnesses');
+        const q = query(witnessesCol, orderBy('created_at_utc', 'desc'), firestoreLimit(limit));
+        const snap = await getDocs(q);
+
+        if (!snap.empty) {
+          const remoteRecords: Witness[] = [];
+          snap.forEach((doc) => {
+            const data = doc.data() as Witness;
+            remoteRecords.push({ ...data, id: doc.id });
+          });
+
+          for (const remote of remoteRecords) {
+            if (!this.witnesses.some((w) => w.id === remote.id)) {
+              this.witnesses.unshift(remote);
             }
-            return data.witnesses;
           }
         }
-      } catch {
-        // Fallback to local
+      } catch (err) {
+        console.warn('[Firestore] fetchLatestWitnesses info:', err);
       }
     }
 
@@ -359,7 +339,7 @@ export class WitnessRepository {
     const demo_y = Math.cos(angle) * radius;
 
     const newWitness: Witness = {
-      id: `usr_${Date.now()}_${generateRandomToken(4)}`,
+      id: `w_${Date.now()}_${generateRandomToken(4)}`,
       human_id: humanId,
       text: params.text.trim(),
       created_at_utc: now.toISOString(),
@@ -378,10 +358,10 @@ export class WitnessRepository {
       is_user: true,
     };
 
-    // Prepend locally for instant responsiveness
+    // 1. Prepend locally for zero-latency response
     this.witnesses = [newWitness, ...this.witnesses];
 
-    // Persist user witnesses locally
+    // 2. Persist user witnesses locally in localStorage
     if (typeof window !== 'undefined') {
       try {
         const userOnly = this.witnesses.filter((w) => w.is_user);
@@ -390,7 +370,7 @@ export class WitnessRepository {
         console.error('Failed to save witness to storage', e);
       }
 
-      // 1. BroadcastChannel dispatch (instant 0ms delivery to all open tabs/windows on same device)
+      // 3. Multi-tab BroadcastChannel dispatch (0ms same-device sync)
       if (this.broadcastChannel) {
         try {
           this.broadcastChannel.postMessage({ type: 'new_witness', witness: newWitness });
@@ -399,26 +379,34 @@ export class WitnessRepository {
         }
       }
 
-      // 2. Synchronize with backend API (delivers to all other mobile/desktop devices via SSE)
-      fetch('/api/witnesses', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(newWitness),
-      })
-        .then((res) => res.json())
-        .then((data) => {
-          if (data && data.witness && data.witness.id) {
-            newWitness.id = data.witness.id;
-          }
+      // 4. Save to Cloud Firestore (cross-device real-time sync across mobile phones and desktop exhibition screens worldwide)
+      try {
+        const witnessesCol = collection(db, 'witnesses');
+        addDoc(witnessesCol, {
+          text: newWitness.text,
+          voice_family: newWitness.voice_family,
+          human_id: newWitness.human_id,
+          city: newWitness.city,
+          country_code: newWitness.country_code,
+          created_at_utc: newWitness.created_at_utc,
+          local_hour: newWitness.local_hour,
+          demo_theme: newWitness.demo_theme,
+          demo_x: newWitness.demo_x,
+          demo_y: newWitness.demo_y,
+          is_user: true,
         })
-        .catch((err) => {
-          console.warn('[WitnessRepo] Background sync failed (saved offline):', err);
-        });
+          .then((docRef) => {
+            newWitness.id = docRef.id;
+          })
+          .catch((err) => {
+            console.warn('[Firestore] addDoc error:', err);
+          });
+      } catch (err) {
+        console.warn('[Firestore] Error:', err);
+      }
     }
 
-    // Trigger local listeners immediately
+    // Trigger local listeners
     this.notifyListeners(newWitness);
 
     return newWitness;
@@ -436,7 +424,8 @@ export class WitnessRepository {
       lower.includes('otobüs') ||
       lower.includes('şişli') ||
       lower.includes('kadıköy') ||
-      lower.includes('beşiktaş')
+      lower.includes('beşiktaş') ||
+      lower.includes('haliç')
     ) {
       return 'şehir';
     }

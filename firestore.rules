@@ -1,0 +1,17 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /witnesses/{witnessId} {
+      // Anyone can read witness statements (public art exhibition)
+      allow read: if true;
+
+      // Anyone can submit a witness (text between 1 and 500 characters)
+      allow create: if request.resource.data.text is string &&
+                    request.resource.data.text.size() > 0 &&
+                    request.resource.data.text.size() <= 500;
+
+      // Immutable: cannot edit or delete past witnesses
+      allow update, delete: if false;
+    }
+  }
+}
