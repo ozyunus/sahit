@@ -4,7 +4,7 @@ import { NetworkCanvas } from './NetworkCanvas';
 import { soundAdapter } from '../services/soundAdapter';
 import { witnessRepo } from '../services/witnessRepository';
 import { QrCodeDisplay } from './QrCodeDisplay';
-import { Minimize2, Play, Pause, Sparkles } from 'lucide-react';
+import { Minimize2, Play, Pause, Sparkles, Volume2, VolumeX } from 'lucide-react';
 
 interface ExhibitionViewProps {
   onExitExhibition: () => void;
@@ -21,18 +21,20 @@ export const ExhibitionView: React.FC<ExhibitionViewProps> = ({
   onOpenComposer,
   onOpenQrPoster,
 }) => {
-  // Exactly 100 latest witnesses for the exhibition visual field
   const [visibleWitnesses, setVisibleWitnesses] = useState<Witness[]>([]);
   const [isPlayingStream, setIsPlayingStream] = useState(true);
   const [activeWitness, setActiveWitness] = useState<Witness | null>(null);
   const [stage, setStage] = useState<SpawnStage>('idle');
   const [spawnCoords, setSpawnCoords] = useState({ startX: 50, startY: 45, targetX: 50, targetY: 45 });
   const [isLiveArrival, setIsLiveArrival] = useState(false);
+  const [isAudioMuted, setIsAudioMuted] = useState(false);
+  const [audioUnlocked, setAudioUnlocked] = useState(false);
 
   const ambientTimerRef = useRef<NodeJS.Timeout | null>(null);
   const lastArrivalTimestampRef = useRef<number>(Date.now());
+  const activeTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
-  // 5-step lifecycle for witness presentation
+  // Full presentation cycle (8.5 seconds for new arrival so everyone in the room reads and hears it)
   const runPresentationCycle = useCallback((targetWitness: Witness, live = false) => {
     setIsLiveArrival(live);
     lastArrivalTimestampRef.current = Date.now();
@@ -41,45 +43,47 @@ export const ExhibitionView: React.FC<ExhibitionViewProps> = ({
     const targetX = 50 + targetWitness.demo_x * 35;
     const targetY = 50 + targetWitness.demo_y * 35;
 
-    // Start near center with slight organic randomness
-    const startX = 48 + (Math.random() * 8 - 4);
-    const startY = 46 + (Math.random() * 8 - 4);
+    const startX = 50 + (Math.random() * 6 - 3);
+    const startY = 46 + (Math.random() * 6 - 3);
 
     setSpawnCoords({ startX, startY, targetX, targetY });
     setActiveWitness(targetWitness);
 
-    // 1. Yeni node doğsun & 2. Kısa sözsüz voice-family sesi çalsın
+    // 1. Yeni node doğsun & 2. Sesi içeriye gelsin (audible warm chime & formant)
     setStage('birth');
+    soundAdapter.unlockAudio();
     soundAdapter.playVoiceCue(targetWitness.voice_family);
 
-    // 3. Şahitlik cümlesi birkaç saniye okunsun
+    // 3. Şahitlik cümlesi herkesin göreceği şekilde belirsin (read)
     setTimeout(() => {
       setStage('read');
-    }, 500);
+    }, 400);
 
-    // 4. Node ilişkili bölgeye doğru hareket etsin
+    // 4. Node ve metin ilişkili bölgeye doğru hareket etsin (drift)
+    const driftDelay = live ? 7000 : 4500;
     setTimeout(() => {
       setStage('drift');
-    }, live ? 5000 : 4200);
+    }, driftDelay);
 
-    // 5. Kolektif alana karışsın
-    setTimeout(() => {
+    // 5. Kolektif alana karışsın (settled)
+    const settleDelay = live ? 9200 : 6800;
+    if (activeTimeoutRef.current) clearTimeout(activeTimeoutRef.current);
+    activeTimeoutRef.current = setTimeout(() => {
       setStage('settled');
-    }, live ? 7600 : 6800);
+    }, settleDelay);
   }, []);
 
   // Handle incoming realtime witness (from mobile, web, or backend SSE)
   const handleRealtimeNewWitness = useCallback(
     (newWitness: Witness) => {
-      // 1. Add to exhibition list and maintain strictly last 100 records
+      // 1. Add to exhibition list and maintain strictly last 100 records (FIFO)
       setVisibleWitnesses((prev) => {
         const withoutIncoming = prev.filter((w) => w.id !== newWitness.id);
         const updated = [newWitness, ...withoutIncoming];
-        // FIFO: Drop oldest if exceeding 100
         return updated.slice(0, MAX_EXHIBITION_NODES);
       });
 
-      // 2. Immediately trigger 5-step lifecycle
+      // 2. Play sound and trigger spotlight ceremony immediately
       runPresentationCycle(newWitness, true);
     },
     [runPresentationCycle]
@@ -93,17 +97,16 @@ export const ExhibitionView: React.FC<ExhibitionViewProps> = ({
       if (!isMounted) return;
       setVisibleWitnesses(latest.slice(0, MAX_EXHIBITION_NODES));
 
-      // Trigger initial welcoming witness if available
       if (latest.length > 0) {
         setTimeout(() => {
           if (isMounted) {
             runPresentationCycle(latest[0], false);
           }
-        }, 1200);
+        }, 1000);
       }
     });
 
-    // Realtime subscription: receives SSE events from backend instantaneously
+    // Realtime subscription (Server-Sent Events + BroadcastChannel)
     const unsubscribe = witnessRepo.subscribeToNewWitnesses((witness) => {
       if (isMounted) {
         handleRealtimeNewWitness(witness);
@@ -113,30 +116,54 @@ export const ExhibitionView: React.FC<ExhibitionViewProps> = ({
     return () => {
       isMounted = false;
       unsubscribe();
+      if (activeTimeoutRef.current) clearTimeout(activeTimeoutRef.current);
     };
   }, [handleRealtimeNewWitness, runPresentationCycle]);
 
-  // Ambient showcase cycle (runs only when no realtime arrival in the last 11 seconds)
+  // Ambient showcase cycle (runs when no realtime arrival in last 12 seconds)
   useEffect(() => {
     if (!isPlayingStream) return;
 
     ambientTimerRef.current = setInterval(() => {
       const timeSinceLastArrival = Date.now() - lastArrivalTimestampRef.current;
-      if (timeSinceLastArrival < 11000) return; // Do not interrupt recently arrived realtime witness
+      if (timeSinceLastArrival < 12000) return;
 
       if (visibleWitnesses.length > 0) {
         const randomExisting = visibleWitnesses[Math.floor(Math.random() * visibleWitnesses.length)];
         runPresentationCycle(randomExisting, false);
       }
-    }, 12500);
+    }, 13000);
 
     return () => {
       if (ambientTimerRef.current) clearInterval(ambientTimerRef.current);
     };
   }, [isPlayingStream, visibleWitnesses, runPresentationCycle]);
 
+  const handleTestAudio = () => {
+    soundAdapter.unlockAudio();
+    setAudioUnlocked(true);
+    soundAdapter.playVoiceCue('adult_female');
+  };
+
+  const handleToggleMute = () => {
+    const nextMuted = !isAudioMuted;
+    setIsAudioMuted(nextMuted);
+    soundAdapter.setMuted(nextMuted);
+  };
+
+  // Recent 4 witnesses kept visible so previous thoughts remain readable on screen
+  const recentReadableWitnesses = visibleWitnesses.slice(0, 4);
+
   return (
-    <div className="relative w-screen h-screen overflow-hidden bg-[#04060a] select-none">
+    <div
+      onClick={() => {
+        if (!audioUnlocked) {
+          soundAdapter.unlockAudio();
+          setAudioUnlocked(true);
+        }
+      }}
+      className="relative w-screen h-screen overflow-hidden bg-[#04060a] select-none"
+    >
       {/* Background Living Cosmos Network (strictly rendering last 100 nodes) */}
       <div className="absolute inset-0 z-0 opacity-80">
         <NetworkCanvas
@@ -153,12 +180,12 @@ export const ExhibitionView: React.FC<ExhibitionViewProps> = ({
       {/* Top Left: Conceptual artwork indicator - “Başkalarının şahitliklerine şahit ol.” */}
       <div className="absolute top-6 left-8 z-10 space-y-1">
         <div className="flex items-center gap-2">
-          <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
+          <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse shadow-[0_0_8px_#fbbf24]" />
           <h2 className="text-sm font-serif tracking-[0.2em] uppercase text-white">
             ŞAHİTLİK
           </h2>
-          <span className="text-[10px] font-mono text-slate-400 border border-white/10 px-1.5 py-0.5 rounded-full ml-1">
-            {visibleWitnesses.length} / 100
+          <span className="text-[10px] font-mono text-slate-400 border border-white/10 px-2 py-0.5 rounded-full ml-1 bg-white/5">
+            {visibleWitnesses.length} / 100 şahitlik alanda
           </span>
         </div>
         <p className="text-xs text-slate-300 font-serif italic tracking-wide">
@@ -166,8 +193,18 @@ export const ExhibitionView: React.FC<ExhibitionViewProps> = ({
         </p>
       </div>
 
-      {/* Top Right: Minimal Controls */}
+      {/* Top Right: Minimal Gallery Controls */}
       <div className="absolute top-6 right-8 z-10 flex items-center gap-3">
+        {/* Sound Test / Status Button */}
+        <button
+          onClick={handleTestAudio}
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs text-slate-200 bg-black/40 hover:bg-white/10 border border-white/10 transition-colors shadow-lg cursor-pointer"
+          title="Sesi Test Et"
+        >
+          <Volume2 className="w-3.5 h-3.5 text-amber-300" />
+          <span className="hidden sm:inline">Ses Açık (Test Et)</span>
+        </button>
+
         <div className="flex items-center gap-1.5 p-1 bg-black/40 backdrop-blur-md rounded-full border border-white/10">
           <button
             onClick={() => {
@@ -184,14 +221,21 @@ export const ExhibitionView: React.FC<ExhibitionViewProps> = ({
           </button>
           <button
             onClick={() => setIsPlayingStream(!isPlayingStream)}
-            className="p-1.5 text-slate-400 hover:text-white transition-colors"
+            className="p-1.5 text-slate-400 hover:text-white transition-colors cursor-pointer"
             title={isPlayingStream ? 'Akışı Duraklat' : 'Akışı Başlat'}
           >
             {isPlayingStream ? <Pause className="w-3.5 h-3.5" /> : <Play className="w-3.5 h-3.5" />}
           </button>
           <button
+            onClick={handleToggleMute}
+            className="p-1.5 text-slate-400 hover:text-white transition-colors cursor-pointer"
+            title={isAudioMuted ? 'Sesi Aç' : 'Sesi Kapat'}
+          >
+            {isAudioMuted ? <VolumeX className="w-3.5 h-3.5 text-rose-400" /> : <Volume2 className="w-3.5 h-3.5 text-slate-300" />}
+          </button>
+          <button
             onClick={onExitExhibition}
-            className="p-1.5 text-slate-400 hover:text-white transition-colors"
+            className="p-1.5 text-slate-400 hover:text-white transition-colors cursor-pointer"
             title="Sergi Modundan Çık"
           >
             <Minimize2 className="w-3.5 h-3.5" />
@@ -199,10 +243,38 @@ export const ExhibitionView: React.FC<ExhibitionViewProps> = ({
         </div>
       </div>
 
-      {/* Center Exhibition Experience: Birth -> Reading -> Drift -> Settle */}
+      {/* Top Left Floating Stream: "Eski yazılanlar kalsın" - Recent 3 whispers kept visible and readable */}
+      <div className="absolute top-20 left-8 z-10 max-w-sm space-y-2 pointer-events-none hidden md:block">
+        <p className="text-[10px] uppercase font-mono tracking-wider text-slate-500">
+          Alandaki Son Şahitlikler
+        </p>
+        <div className="space-y-1.5">
+          {recentReadableWitnesses.map((rw) => (
+            <div
+              key={rw.id}
+              className={`p-2.5 rounded-xl border backdrop-blur-md transition-all duration-700 ${
+                activeWitness?.id === rw.id
+                  ? 'bg-amber-500/15 border-amber-400/40 text-amber-100 shadow-[0_0_15px_rgba(251,191,36,0.2)]'
+                  : 'bg-black/30 border-white/5 text-slate-300'
+              }`}
+            >
+              <p className="text-xs font-serif leading-snug line-clamp-2">
+                “{rw.text}”
+              </p>
+              <p className="text-[10px] text-slate-500 mt-1 flex items-center gap-1.5">
+                <span>{rw.city || 'İstanbul'}</span>
+                <span>·</span>
+                <span>{rw.local_hour ? `${rw.local_hour}:00` : 'Az önce'}</span>
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Center Arrival Ceremony: Bold, Unmistakable Presence for Everyone in the Venue */}
       {activeWitness && stage !== 'idle' && (
-        <div className="absolute inset-0 z-20 pointer-events-none">
-          {/* Animated Birth Node Point */}
+        <div className="absolute inset-0 z-20 pointer-events-none flex items-center justify-center">
+          {/* Animated Glowing Birth Beacon & Expanding Ripple Ring */}
           <div
             style={{
               left: `${stage === 'drift' ? spawnCoords.targetX : spawnCoords.startX}%`,
@@ -212,51 +284,57 @@ export const ExhibitionView: React.FC<ExhibitionViewProps> = ({
             }}
             className="absolute flex items-center justify-center pointer-events-none"
           >
-            {/* Glowing Birth Halo */}
+            {/* Expanding Golden Ripple Halo on New Arrival */}
+            {isLiveArrival && (
+              <div className="absolute w-36 h-36 rounded-full border-2 border-amber-400/60 animate-ping" />
+            )}
             <div
               className={`rounded-full transition-all duration-700 ${
                 stage === 'birth'
-                  ? 'w-28 h-28 bg-amber-400/35 blur-xl scale-125 animate-pulse'
+                  ? 'w-32 h-32 bg-amber-400/40 blur-2xl scale-150 animate-pulse'
                   : stage === 'read'
-                  ? 'w-16 h-16 bg-amber-400/20 blur-md scale-100'
-                  : 'w-4 h-4 bg-white/40 blur-xs scale-75'
+                  ? 'w-20 h-20 bg-amber-400/25 blur-lg scale-110'
+                  : 'w-6 h-6 bg-white/40 blur-xs scale-90'
               }`}
             />
-            <div className="w-4 h-4 rounded-full bg-white shadow-[0_0_15px_#fff]" />
+            <div className="w-5 h-5 rounded-full bg-white shadow-[0_0_25px_#fbbf24]" />
           </div>
 
-          {/* Large Typographic Reading Phase */}
+          {/* Prominent Typographic Announcement Card / Spotlight (Unmistakable to everyone watching) */}
           <div
-            className={`absolute inset-0 flex items-center justify-center p-8 transition-all duration-1000 ${
+            className={`max-w-4xl mx-auto px-6 text-center transition-all duration-700 ${
               stage === 'birth'
-                ? 'opacity-0 scale-95 translate-y-3'
+                ? 'opacity-80 scale-95 translate-y-2'
                 : stage === 'read'
                 ? 'opacity-100 scale-100 translate-y-0'
                 : stage === 'drift'
-                ? 'opacity-20 scale-95 -translate-y-6 blur-xs'
-                : 'opacity-0'
+                ? 'opacity-40 scale-95 -translate-y-6 blur-xs'
+                : 'opacity-0 scale-90'
             }`}
           >
-            <div className="max-w-3xl text-center space-y-6">
-              {isLiveArrival && (
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-400/15 border border-amber-400/30 text-amber-200 text-xs font-serif tracking-wider uppercase animate-fade-in">
-                  <span className="w-1.5 h-1.5 rounded-full bg-amber-300 animate-ping" />
-                  Yeni Şahitlik İntikali
-                </div>
-              )}
+            <div className="p-8 sm:p-12 rounded-3xl bg-black/75 backdrop-blur-2xl border border-amber-400/30 shadow-[0_0_80px_rgba(0,0,0,0.95)] space-y-6">
+              {/* Distinctive Live Arrival Banner */}
+              <div className="flex items-center justify-center gap-2">
+                <span className="w-2.5 h-2.5 rounded-full bg-amber-400 animate-ping" />
+                <span className="px-4 py-1.5 rounded-full bg-amber-400/20 border border-amber-400/40 text-amber-200 text-xs font-medium tracking-[0.2em] uppercase shadow-md">
+                  {isLiveArrival ? '✨ YENİ ŞAHİTLİK GELDİ' : 'ŞAHİTLİK YANKISI'}
+                </span>
+              </div>
 
-              <blockquote className="text-2xl sm:text-4xl md:text-5xl font-serif font-light text-white leading-relaxed tracking-wide drop-shadow-[0_4px_40px_rgba(0,0,0,0.95)]">
+              {/* Huge, Dignified Readable Quote */}
+              <blockquote className="text-3xl sm:text-5xl md:text-6xl font-serif font-light text-white leading-tight tracking-wide drop-shadow-[0_4px_30px_rgba(0,0,0,0.95)]">
                 “{activeWitness.text}”
               </blockquote>
 
+              {/* Attribution and Context */}
               <div className="flex items-center justify-center gap-3 text-xs sm:text-sm text-slate-300 font-sans tracking-widest uppercase">
-                <span>{activeWitness.city || 'İstanbul'}</span>
+                <span className="text-amber-200">{activeWitness.city || 'İstanbul'}</span>
                 <span className="text-slate-600">·</span>
                 <span>{activeWitness.local_hour ? `${activeWitness.local_hour}:00` : 'Şimdi'}</span>
                 {activeWitness.weather && (
                   <>
                     <span className="text-slate-600">·</span>
-                    <span>{activeWitness.weather.condition}</span>
+                    <span className="capitalize">{activeWitness.weather.condition}</span>
                   </>
                 )}
               </div>

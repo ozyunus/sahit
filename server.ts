@@ -12,6 +12,18 @@ const app = express();
 
 app.use(express.json());
 
+// Enable CORS for all cross-device clients and preview URLs
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  if (req.method === 'OPTIONS') {
+    res.sendStatus(200);
+    return;
+  }
+  next();
+});
+
 // In-memory witness store + persistent file fallback
 const STORE_PATH = path.resolve(__dirname, 'src/data/witnesses-store.json');
 const SEED_PATH = path.resolve(__dirname, 'src/data/witnesses.json');

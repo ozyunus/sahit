@@ -3,6 +3,7 @@ import { FilterState, Human, HumanCredential, VoiceFamily, Witness, WitnessEdge 
 
 const STORAGE_KEY_HUMAN = 'sahitlik_human_profile_v1';
 const STORAGE_KEY_USER_WITNESSES = 'sahitlik_user_witnesses_v1';
+const BROADCAST_CHANNEL_NAME = 'sahitlik_realtime_channel_v1';
 
 // Generate cryptographic hex hash
 async function hashSecret(secret: string): Promise<string> {
@@ -40,12 +41,14 @@ export class WitnessRepository {
   private initialized = false;
   private newWitnessListeners: Set<(witness: Witness) => void> = new Set();
   private eventSource: EventSource | null = null;
+  private broadcastChannel: BroadcastChannel | null = null;
   private lastSyncUtc: string = new Date().toISOString();
   private reconnectTimer: any = null;
 
   constructor() {
     this.init();
     this.initRealtimeStream();
+    this.initBroadcastChannel();
   }
 
   private init() {
@@ -80,6 +83,35 @@ export class WitnessRepository {
     }
   }
 
+  private initBroadcastChannel() {
+    if (typeof window === 'undefined' || !('BroadcastChannel' in window)) return;
+    try {
+      this.broadcastChannel = new BroadcastChannel(BROADCAST_CHANNEL_NAME);
+      this.broadcastChannel.onmessage = (event) => {
+        if (event.data?.type === 'new_witness' && event.data.witness) {
+          const incoming: Witness = event.data.witness;
+          const exists = this.witnesses.some((w) => w.id === incoming.id);
+          if (!exists) {
+            this.witnesses.unshift(incoming);
+            this.notifyListeners(incoming);
+          }
+        }
+      };
+    } catch (e) {
+      console.warn('[WitnessRepo] BroadcastChannel not available:', e);
+    }
+  }
+
+  private notifyListeners(witness: Witness) {
+    this.newWitnessListeners.forEach((listener) => {
+      try {
+        listener(witness);
+      } catch (err) {
+        console.error('[WitnessRepo] Listener error:', err);
+      }
+    });
+  }
+
   private initHumanIdentity() {
     if (typeof window === 'undefined') return;
 
@@ -90,7 +122,6 @@ export class WitnessRepository {
         this.currentHuman = parsed.human;
         this.currentCredential = parsed.credential;
       } else {
-        // Create new pseudonymous HumanID & Recovery Secret
         const humanId = `human_${generateRandomToken(8)}`;
         const secretPart1 = generateRandomToken(6);
         const secretPart2 = generateRandomToken(6);
@@ -159,23 +190,15 @@ export class WitnessRepository {
             if (!exists) {
               this.witnesses.unshift(incoming);
               this.lastSyncUtc = incoming.created_at_utc;
-              // Notify subscribers (Exhibition Mode, collective map, etc.)
-              this.newWitnessListeners.forEach((listener) => {
-                try {
-                  listener(incoming);
-                } catch (err) {
-                  console.error('[WitnessRepo] Listener error:', err);
-                }
-              });
+              this.notifyListeners(incoming);
             }
           }
         } catch {
-          // heartbeat or non-json message
+          // Heartbeat comment
         }
       };
 
       this.eventSource.onerror = () => {
-        // Handle disconnect with auto-reconnect
         if (this.eventSource) {
           this.eventSource.close();
           this.eventSource = null;
@@ -204,11 +227,9 @@ export class WitnessRepository {
       if (!res.ok) return;
       const data = await res.json();
       if (Array.isArray(data.witnesses)) {
-        let addedCount = 0;
         for (const w of data.witnesses) {
           if (!this.witnesses.some((existing) => existing.id === w.id)) {
             this.witnesses.unshift(w);
-            addedCount++;
           }
         }
         if (data.witnesses.length > 0) {
@@ -235,7 +256,6 @@ export class WitnessRepository {
         if (res.ok) {
           const data = await res.json();
           if (Array.isArray(data.witnesses) && data.witnesses.length > 0) {
-            // Merge with local witnesses
             for (const remote of data.witnesses) {
               if (!this.witnesses.some((w) => w.id === remote.id)) {
                 this.witnesses.push(remote);
@@ -249,7 +269,6 @@ export class WitnessRepository {
       }
     }
 
-    // Local fallback: sort descending by date and return top `limit`
     const sorted = [...this.witnesses].sort(
       (a, b) => new Date(b.created_at_utc).getTime() - new Date(a.created_at_utc).getTime()
     );
@@ -359,7 +378,7 @@ export class WitnessRepository {
       is_user: true,
     };
 
-    // Prepend locally for zero-latency response
+    // Prepend locally for instant responsiveness
     this.witnesses = [newWitness, ...this.witnesses];
 
     // Persist user witnesses locally
@@ -371,7 +390,16 @@ export class WitnessRepository {
         console.error('Failed to save witness to storage', e);
       }
 
-      // Synchronize with backend API in background & broadcast to SSE
+      // 1. BroadcastChannel dispatch (instant 0ms delivery to all open tabs/windows on same device)
+      if (this.broadcastChannel) {
+        try {
+          this.broadcastChannel.postMessage({ type: 'new_witness', witness: newWitness });
+        } catch (e) {
+          console.warn('[WitnessRepo] Broadcast post failed:', e);
+        }
+      }
+
+      // 2. Synchronize with backend API (delivers to all other mobile/desktop devices via SSE)
       fetch('/api/witnesses', {
         method: 'POST',
         headers: {
@@ -390,14 +418,8 @@ export class WitnessRepository {
         });
     }
 
-    // Trigger local listeners
-    this.newWitnessListeners.forEach((listener) => {
-      try {
-        listener(newWitness);
-      } catch (err) {
-        console.error('[WitnessRepo] Listener error:', err);
-      }
-    });
+    // Trigger local listeners immediately
+    this.notifyListeners(newWitness);
 
     return newWitness;
   }

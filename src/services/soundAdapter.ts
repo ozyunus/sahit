@@ -5,10 +5,12 @@ class SoundAdapter {
   private soundCache: Map<string, AudioBuffer> = new Map();
   private isMuted: boolean = false;
 
-  private getAudioContext(): AudioContext | null {
+  public getAudioContext(): AudioContext | null {
     if (typeof window === 'undefined') return null;
     if (!this.audioCtx) {
-      const AudioCtxClass = window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
+      const AudioCtxClass =
+        window.AudioContext ||
+        (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
       if (AudioCtxClass) {
         this.audioCtx = new AudioCtxClass();
       }
@@ -17,6 +19,13 @@ class SoundAdapter {
       this.audioCtx.resume().catch(() => {});
     }
     return this.audioCtx;
+  }
+
+  public unlockAudio() {
+    const ctx = this.getAudioContext();
+    if (ctx && ctx.state === 'suspended') {
+      ctx.resume().catch(() => {});
+    }
   }
 
   public setMuted(muted: boolean) {
@@ -28,102 +37,70 @@ class SoundAdapter {
   }
 
   /**
-   * Play a wordless human vocal gesture for the chosen voice family.
-   * Uses real audio file if available, or rich organic acoustic formant synthesis fallback.
+   * Play a resonant, wordless human vocal gesture for the chosen voice family.
+   * Audible, warm, and room-filling for gallery/exhibition environments.
    */
   public async playVoiceCue(family: VoiceFamily = 'adult_female'): Promise<void> {
     if (this.isMuted) return;
+    this.unlockAudio();
 
-    // Try loading audio file first
-    const played = await this.tryPlayAudioFile(family);
-    if (!played) {
-      // Fallback: high-quality organic acoustic formant synthesis
-      this.synthesizeHumanBreathVocal(family);
-    }
-  }
-
-  private async tryPlayAudioFile(family: VoiceFamily): Promise<boolean> {
-    try {
-      const ctx = this.getAudioContext();
-      if (!ctx) return false;
-
-      // Pick random sample index (1-4)
-      const index = Math.floor(Math.random() * 4) + 1;
-      const paddedIndex = index.toString().padStart(2, '0');
-      const url = `/assets/sounds/${family}/${family}_${paddedIndex}.mp3`;
-
-      if (this.soundCache.has(url)) {
-        const buffer = this.soundCache.get(url)!;
-        this.playBuffer(buffer, ctx);
-        return true;
-      }
-
-      // Check if file exists via head/fetch
-      const response = await fetch(url, { method: 'HEAD' });
-      if (response.ok) {
-        const fullResponse = await fetch(url);
-        const arrayBuf = await fullResponse.arrayBuffer();
-        const audioBuffer = await ctx.decodeAudioData(arrayBuf);
-        this.soundCache.set(url, audioBuffer);
-        this.playBuffer(audioBuffer, ctx);
-        return true;
-      }
-    } catch {
-      // Graceful fallback to synthesizer
-    }
-    return false;
-  }
-
-  private playBuffer(buffer: AudioBuffer, ctx: AudioContext) {
-    const source = ctx.createBufferSource();
-    const gain = ctx.createGain();
-    gain.gain.setValueAtTime(0.4, ctx.currentTime);
-    source.buffer = buffer;
-    source.connect(gain);
-    gain.connect(ctx.destination);
-    source.start();
+    // Fallback: high-quality organic acoustic formant synthesis with acoustic chime
+    this.synthesizeHumanBreathVocal(family);
   }
 
   /**
-   * Synthesize a warm, calming wordless human tone with formant filters and breath noise
-   * Tailored for each voice family.
+   * Rich organic acoustic formant synthesis + warm singing bowl acoustic shimmer
    */
   private synthesizeHumanBreathVocal(family: VoiceFamily) {
     try {
       const ctx = this.getAudioContext();
       if (!ctx) return;
+      if (ctx.state === 'suspended') {
+        ctx.resume().catch(() => {});
+      }
 
       const now = ctx.currentTime;
-      const duration = 1.4 + Math.random() * 0.4;
+      const duration = 2.4;
 
-      // Frequency and formant configurations for natural wordless vocal tones
-      const familyConfigs: Record<VoiceFamily, { baseFreq: number; f1: number; f2: number; f3: number }> = {
-        adult_male: { baseFreq: 115 + Math.random() * 20, f1: 500, f2: 1000, f3: 2400 },
-        adult_female: { baseFreq: 220 + Math.random() * 30, f1: 650, f2: 1400, f3: 2800 },
-        boy: { baseFreq: 270 + Math.random() * 30, f1: 750, f2: 1600, f3: 3100 },
-        girl: { baseFreq: 330 + Math.random() * 40, f1: 850, f2: 1800, f3: 3400 },
+      // Pitch configurations
+      const familyConfigs: Record<VoiceFamily, { baseFreq: number; f1: number; f2: number; f3: number; chimeFreq: number }> = {
+        adult_male: { baseFreq: 120, f1: 520, f2: 1040, f3: 2400, chimeFreq: 432 },
+        adult_female: { baseFreq: 230, f1: 680, f2: 1450, f3: 2800, chimeFreq: 528 },
+        boy: { baseFreq: 280, f1: 760, f2: 1620, f3: 3100, chimeFreq: 588 },
+        girl: { baseFreq: 340, f1: 880, f2: 1850, f3: 3400, chimeFreq: 660 },
       };
 
       const config = familyConfigs[family] || familyConfigs.adult_female;
 
-      // Master gain node
+      // Master gain node (increased to 0.42 for clear room presence)
       const masterGain = ctx.createGain();
-      masterGain.gain.setValueAtTime(0.001, now);
-      // Soft organic attack (breath in)
-      masterGain.gain.exponentialRampToValueAtTime(0.18, now + 0.35);
-      // Natural lingering decay
-      masterGain.gain.exponentialRampToValueAtTime(0.001, now + duration);
+      masterGain.gain.setValueAtTime(0.0001, now);
+      masterGain.gain.exponentialRampToValueAtTime(0.42, now + 0.25);
+      masterGain.gain.exponentialRampToValueAtTime(0.0001, now + duration);
       masterGain.connect(ctx.destination);
 
-      // 1. Warm Fundamental Oscillator (Humming / Vowel body)
+      // 1. Resonant Tibetan Bell / Singing Bowl Chime (immediate audible arrival feedback)
+      const chimeOsc = ctx.createOscillator();
+      chimeOsc.type = 'sine';
+      chimeOsc.frequency.setValueAtTime(config.chimeFreq, now);
+
+      const chimeGain = ctx.createGain();
+      chimeGain.gain.setValueAtTime(0.35, now);
+      chimeGain.gain.exponentialRampToValueAtTime(0.001, now + 1.8);
+
+      chimeOsc.connect(chimeGain);
+      chimeGain.connect(masterGain);
+      chimeOsc.start(now);
+      chimeOsc.stop(now + 1.9);
+
+      // 2. Warm Fundamental Oscillator (Humming / Vowel body)
       const osc = ctx.createOscillator();
       osc.type = 'triangle';
       osc.frequency.setValueAtTime(config.baseFreq, now);
-      // Gentle micro-inflection (human pitch drift)
-      osc.frequency.linearRampToValueAtTime(config.baseFreq * 1.03, now + 0.4);
+      osc.frequency.linearRampToValueAtTime(config.baseFreq * 1.02, now + 0.4);
       osc.frequency.linearRampToValueAtTime(config.baseFreq * 0.98, now + duration);
 
-      // Formant filter (Vowel coloring: gentle "ah / mm")
+      // Formant filters (Vowel coloring: gentle "aah / omm")
       const formant1 = ctx.createBiquadFilter();
       formant1.type = 'bandpass';
       formant1.frequency.setValueAtTime(config.f1, now);
@@ -143,14 +120,17 @@ class SoundAdapter {
       formant2.connect(oscGain2);
       oscGain2.connect(masterGain);
 
-      // 2. Breath component (subtle pink/filtered noise for airy presence)
-      const bufferSize = ctx.sampleRate * duration;
+      osc.start(now);
+      osc.stop(now + duration);
+
+      // 3. Breath Component (subtle pink/filtered noise for airy presence)
+      const bufferSize = Math.floor(ctx.sampleRate * duration);
       const noiseBuffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
       const output = noiseBuffer.getChannelData(0);
       let lastOut = 0.0;
       for (let i = 0; i < bufferSize; i++) {
         const white = Math.random() * 2 - 1;
-        output[i] = (lastOut + 0.02 * white) / 1.02; // soft pinking
+        output[i] = (lastOut + 0.02 * white) / 1.02;
         lastOut = output[i];
       }
 
@@ -164,28 +144,21 @@ class SoundAdapter {
 
       const noiseGain = ctx.createGain();
       noiseGain.gain.setValueAtTime(0.001, now);
-      noiseGain.gain.exponentialRampToValueAtTime(0.04, now + 0.3);
-      noiseGain.gain.exponentialRampToValueAtTime(0.001, now + duration * 0.9);
+      noiseGain.gain.linearRampToValueAtTime(0.12, now + 0.2);
+      noiseGain.gain.exponentialRampToValueAtTime(0.001, now + duration);
 
       noiseSource.connect(noiseFilter);
       noiseFilter.connect(noiseGain);
       noiseGain.connect(masterGain);
 
-      // Start sound sources
-      osc.start(now);
       noiseSource.start(now);
-
-      osc.stop(now + duration);
       noiseSource.stop(now + duration);
-    } catch {
-      // AudioContext policy blocked until user gesture, safe to ignore
+    } catch (e) {
+      console.warn('[SoundAdapter] Synthesis audio error:', e);
     }
   }
 
-  /**
-   * Ambient node chime on hover / selection
-   */
-  public playSubtleTick(): void {
+  public playSubtleTick() {
     if (this.isMuted) return;
     try {
       const ctx = this.getAudioContext();
@@ -193,23 +166,28 @@ class SoundAdapter {
       const now = ctx.currentTime;
       const osc = ctx.createOscillator();
       const gain = ctx.createGain();
-
       osc.type = 'sine';
-      osc.frequency.setValueAtTime(580, now);
-      osc.frequency.exponentialRampToValueAtTime(420, now + 0.08);
-
-      gain.gain.setValueAtTime(0.02, now);
-      gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.08);
-
+      osc.frequency.setValueAtTime(540, now);
+      osc.frequency.exponentialRampToValueAtTime(220, now + 0.03);
+      gain.gain.setValueAtTime(0.05, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.03);
       osc.connect(gain);
       gain.connect(ctx.destination);
-
       osc.start(now);
-      osc.stop(now + 0.08);
-    } catch {
-      // AudioContext may be suspended
-    }
+      osc.stop(now + 0.035);
+    } catch {}
   }
 }
 
 export const soundAdapter = new SoundAdapter();
+
+// Auto-unlock on first document interaction
+if (typeof window !== 'undefined') {
+  const unlock = () => {
+    soundAdapter.unlockAudio();
+    window.removeEventListener('pointerdown', unlock);
+    window.removeEventListener('keydown', unlock);
+  };
+  window.addEventListener('pointerdown', unlock);
+  window.addEventListener('keydown', unlock);
+}
