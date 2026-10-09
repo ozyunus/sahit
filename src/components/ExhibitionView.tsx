@@ -49,7 +49,7 @@ export const ExhibitionView: React.FC<ExhibitionViewProps> = ({
     setSpawnCoords({ startX, startY, targetX, targetY });
     setActiveWitness(targetWitness);
 
-    // 1. Yeni node doğsun & 2. Sesi içeriye gelsin (audible warm chime & formant)
+    // 1. Yeni node doğsun & 2. Sesi içeriye gelsin
     setStage('birth');
     soundAdapter.unlockAudio();
     soundAdapter.playVoiceCue(targetWitness.voice_family);
@@ -76,14 +76,12 @@ export const ExhibitionView: React.FC<ExhibitionViewProps> = ({
   // Handle incoming realtime witness (from mobile, web, or backend SSE)
   const handleRealtimeNewWitness = useCallback(
     (newWitness: Witness) => {
-      // 1. Add to exhibition list and maintain strictly last 100 records (FIFO)
       setVisibleWitnesses((prev) => {
         const withoutIncoming = prev.filter((w) => w.id !== newWitness.id);
         const updated = [newWitness, ...withoutIncoming];
         return updated.slice(0, MAX_EXHIBITION_NODES);
       });
 
-      // 2. Play sound and trigger spotlight ceremony immediately
       runPresentationCycle(newWitness, true);
     },
     [runPresentationCycle]
@@ -154,8 +152,18 @@ export const ExhibitionView: React.FC<ExhibitionViewProps> = ({
     soundAdapter.setMuted(nextMuted);
   };
 
-  // Recent 4 witnesses kept visible so previous thoughts remain readable on screen
-  const recentReadableWitnesses = visibleWitnesses.slice(0, 4);
+  // 5-6 thoughts scattered across different coordinates of the screen
+  const scatteredThoughts = visibleWitnesses.slice(0, 6);
+
+  // Pre-calculated organic screen positions for scattered quotes
+  const SPATIAL_POSITIONS = [
+    { left: '18%', top: '26%' },
+    { left: '76%', top: '22%' },
+    { left: '22%', top: '70%' },
+    { left: '72%', top: '68%' },
+    { left: '46%', top: '84%' },
+    { left: '82%', top: '44%' },
+  ];
 
   return (
     <div
@@ -246,32 +254,32 @@ export const ExhibitionView: React.FC<ExhibitionViewProps> = ({
         </div>
       </div>
 
-      {/* Top Left Floating Stream: "Eski yazılanlar kalsın" - Recent 3 whispers kept visible and readable */}
-      <div className="absolute top-20 left-8 z-10 max-w-sm space-y-2 pointer-events-none hidden md:block">
-        <p className="text-[10px] uppercase font-mono tracking-wider text-slate-500">
-          Alandaki Son Şahitlikler
-        </p>
-        <div className="space-y-1.5">
-          {recentReadableWitnesses.map((rw) => (
+      {/* Floating Constellation Quotes: Scattered organically across different places on the screen */}
+      <div className="absolute inset-0 z-10 pointer-events-none overflow-hidden">
+        {scatteredThoughts.map((t, idx) => {
+          if (activeWitness?.id === t.id && (stage === 'read' || stage === 'birth')) {
+            return null; // Don't duplicate when spotlight is active
+          }
+          const pos = SPATIAL_POSITIONS[idx % SPATIAL_POSITIONS.length];
+          return (
             <div
-              key={rw.id}
-              className={`p-2.5 rounded-xl border backdrop-blur-md transition-all duration-700 ${
-                activeWitness?.id === rw.id
-                  ? 'bg-amber-500/15 border-amber-400/40 text-amber-100 shadow-[0_0_15px_rgba(251,191,36,0.2)]'
-                  : 'bg-black/30 border-white/5 text-slate-300'
-              }`}
+              key={t.id}
+              style={{ left: pos.left, top: pos.top }}
+              className="absolute -translate-x-1/2 -translate-y-1/2 max-w-[260px] sm:max-w-xs transition-all duration-1000 animate-fade-in"
             >
-              <p className="text-xs font-serif leading-snug line-clamp-2">
-                “{rw.text}”
-              </p>
-              <p className="text-[10px] text-slate-500 mt-1 flex items-center gap-1.5">
-                <span>{rw.city || 'İstanbul'}</span>
-                <span>·</span>
-                <span>{rw.local_hour ? `${rw.local_hour}:00` : 'Az önce'}</span>
-              </p>
+              <div className="p-3 sm:p-3.5 rounded-2xl bg-black/45 backdrop-blur-md border border-white/10 shadow-[0_0_30px_rgba(0,0,0,0.85)] hover:border-amber-400/30 transition-all">
+                <p className="text-xs sm:text-sm font-serif italic text-white/90 leading-relaxed text-center">
+                  “{t.text}”
+                </p>
+                <div className="mt-1.5 flex items-center justify-center gap-2 text-[10px] text-slate-400 font-sans tracking-wider uppercase">
+                  <span className="text-amber-200/80">{t.city || 'İstanbul'}</span>
+                  <span>·</span>
+                  <span>{t.local_hour ? `${t.local_hour}:00` : 'Şimdi'}</span>
+                </div>
+              </div>
             </div>
-          ))}
-        </div>
+          );
+        })}
       </div>
 
       {/* Center Arrival Ceremony: Bold, Unmistakable Presence for Everyone in the Venue */}
@@ -287,7 +295,6 @@ export const ExhibitionView: React.FC<ExhibitionViewProps> = ({
             }}
             className="absolute flex items-center justify-center pointer-events-none"
           >
-            {/* Expanding Golden Ripple Halo on New Arrival */}
             {isLiveArrival && (
               <div className="absolute w-36 h-36 rounded-full border-2 border-amber-400/60 animate-ping" />
             )}
@@ -303,7 +310,7 @@ export const ExhibitionView: React.FC<ExhibitionViewProps> = ({
             <div className="w-5 h-5 rounded-full bg-white shadow-[0_0_25px_#fbbf24]" />
           </div>
 
-          {/* Prominent Typographic Announcement Card / Spotlight (Unmistakable to everyone watching) */}
+          {/* Prominent Typographic Announcement Card / Spotlight */}
           <div
             className={`max-w-4xl mx-auto px-6 text-center transition-all duration-700 ${
               stage === 'birth'
@@ -316,7 +323,6 @@ export const ExhibitionView: React.FC<ExhibitionViewProps> = ({
             }`}
           >
             <div className="p-8 sm:p-12 rounded-3xl bg-black/75 backdrop-blur-2xl border border-amber-400/30 shadow-[0_0_80px_rgba(0,0,0,0.95)] space-y-6">
-              {/* Distinctive Live Arrival Banner */}
               <div className="flex items-center justify-center gap-2">
                 <span className="w-2.5 h-2.5 rounded-full bg-amber-400 animate-ping" />
                 <span className="px-4 py-1.5 rounded-full bg-amber-400/20 border border-amber-400/40 text-amber-200 text-xs font-medium tracking-[0.2em] uppercase shadow-md">
@@ -324,12 +330,10 @@ export const ExhibitionView: React.FC<ExhibitionViewProps> = ({
                 </span>
               </div>
 
-              {/* Huge, Dignified Readable Quote */}
               <blockquote className="text-3xl sm:text-5xl md:text-6xl font-serif font-light text-white leading-tight tracking-wide drop-shadow-[0_4px_30px_rgba(0,0,0,0.95)]">
                 “{activeWitness.text}”
               </blockquote>
 
-              {/* Attribution and Context */}
               <div className="flex items-center justify-center gap-3 text-xs sm:text-sm text-slate-300 font-sans tracking-widest uppercase">
                 <span className="text-amber-200">{activeWitness.city || 'İstanbul'}</span>
                 <span className="text-slate-600">·</span>
