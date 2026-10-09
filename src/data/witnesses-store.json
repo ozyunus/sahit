@@ -1,0 +1,6620 @@
+[
+  {
+    "id": "w_1791540931500_sgm7y",
+    "human_id": "human_1mduxp",
+    "text": "şişli trafiksiz",
+    "created_at_utc": "2026-10-09T10:15:31.500Z",
+    "local_hour": 10,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 19,
+      "source_time": "2026-10-09T10:15:31.500Z"
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.24303613940456226,
+    "demo_y": 0.03318108894979506,
+    "is_user": true
+  },
+  {
+    "id": "w_0001",
+    "text": "Vapurun arkasından gelen martıları izledim.",
+    "created_at_utc": "2026-08-20T07:37:00Z",
+    "local_hour": 7,
+    "voice_family": "adult_female",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.4362,
+    "demo_y": 0.2426,
+    "is_user": false
+  },
+  {
+    "id": "w_0002",
+    "text": "Vapurun arkasından gelen martıları izledim.",
+    "created_at_utc": "2026-07-17T01:50:00Z",
+    "local_hour": 1,
+    "voice_family": "adult_male",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.2906,
+    "demo_y": 0.3218,
+    "is_user": false
+  },
+  {
+    "id": "w_0003",
+    "text": "Annemin saçlarının biraz daha beyazladığını fark ettim.",
+    "created_at_utc": "2026-08-12T14:30:00Z",
+    "local_hour": 14,
+    "voice_family": "adult_female",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.64,
+    "demo_y": 0.9448,
+    "is_user": false
+  },
+  {
+    "id": "w_0004",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-09-21T00:37:00Z",
+    "local_hour": 0,
+    "voice_family": "adult_male",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "iş",
+    "demo_x": -0.7018,
+    "demo_y": -0.1026,
+    "is_user": false
+  },
+  {
+    "id": "w_0005",
+    "text": "Otobüs durağında insanlar yağmurdan birbirine sokuldu.",
+    "created_at_utc": "2026-09-01T04:34:00Z",
+    "local_hour": 4,
+    "voice_family": "adult_female",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.386,
+    "demo_y": -0.6294,
+    "is_user": false
+  },
+  {
+    "id": "w_0006",
+    "text": "Köpeğim uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-09-08T09:55:00Z",
+    "local_hour": 9,
+    "voice_family": "boy",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.6284,
+    "demo_y": 0.2098,
+    "is_user": false
+  },
+  {
+    "id": "w_0007",
+    "text": "Bir koku bana yıllar önceki bir evi hatırlattı.",
+    "created_at_utc": "2026-07-09T03:50:00Z",
+    "local_hour": 3,
+    "voice_family": "girl",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "hafıza",
+    "demo_x": -0.079,
+    "demo_y": 0.7568,
+    "is_user": false
+  },
+  {
+    "id": "w_0008",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-09-08T03:50:00Z",
+    "local_hour": 3,
+    "voice_family": "boy",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "iş",
+    "demo_x": -0.9882,
+    "demo_y": -0.5032,
+    "is_user": false
+  },
+  {
+    "id": "w_0009",
+    "text": "Kırmızı ışıkta herkesin acele ettiğini gördüm.",
+    "created_at_utc": "2026-07-13T21:53:00Z",
+    "local_hour": 21,
+    "voice_family": "boy",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "beklemek",
+    "demo_x": 0.22,
+    "demo_y": -0.705,
+    "is_user": false
+  },
+  {
+    "id": "w_0010",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-07-19T15:16:00Z",
+    "local_hour": 15,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.0664,
+    "demo_y": -0.0342,
+    "is_user": false
+  },
+  {
+    "id": "w_0011",
+    "text": "Mahalledeki eski dükkânın kapandığını gördüm.",
+    "created_at_utc": "2026-09-03T22:12:00Z",
+    "local_hour": 22,
+    "voice_family": "adult_male",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "zaman",
+    "demo_x": -0.3086,
+    "demo_y": -0.7006,
+    "is_user": false
+  },
+  {
+    "id": "w_0012",
+    "text": "Bir koku bana yıllar önceki bir evi hatırlattı.",
+    "created_at_utc": "2026-08-14T19:35:00Z",
+    "local_hour": 19,
+    "voice_family": "girl",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "hafıza",
+    "demo_x": 0.1168,
+    "demo_y": -0.8028,
+    "is_user": false
+  },
+  {
+    "id": "w_0013",
+    "text": "Yağmur başlayınca sokak bir anda boşaldı.",
+    "created_at_utc": "2026-08-10T05:30:00Z",
+    "local_hour": 5,
+    "voice_family": "boy",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "doğa",
+    "demo_x": 0.8126,
+    "demo_y": 0.9432,
+    "is_user": false
+  },
+  {
+    "id": "w_0014",
+    "text": "Babam bugün eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-07-07T02:14:00Z",
+    "local_hour": 2,
+    "voice_family": "boy",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.4848,
+    "demo_y": -0.3068,
+    "is_user": false
+  },
+  {
+    "id": "w_0015",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-08-27T12:50:00Z",
+    "local_hour": 12,
+    "voice_family": "girl",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.5458,
+    "demo_y": -0.832,
+    "is_user": false
+  },
+  {
+    "id": "w_0016",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-07-26T16:03:00Z",
+    "local_hour": 16,
+    "voice_family": "girl",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.2338,
+    "demo_y": 0.8982,
+    "is_user": false
+  },
+  {
+    "id": "w_0017",
+    "text": "Kırmızı ışıkta herkesin acele ettiğini gördüm.",
+    "created_at_utc": "2026-08-10T04:13:00Z",
+    "local_hour": 4,
+    "voice_family": "adult_male",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "beklemek",
+    "demo_x": -0.4034,
+    "demo_y": 0.8598,
+    "is_user": false
+  },
+  {
+    "id": "w_0018",
+    "text": "Babam bugün eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-07-29T01:46:00Z",
+    "local_hour": 1,
+    "voice_family": "adult_female",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "aile",
+    "demo_x": 0.1652,
+    "demo_y": -0.4894,
+    "is_user": false
+  },
+  {
+    "id": "w_0019",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-09-09T07:04:00Z",
+    "local_hour": 7,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.9394,
+    "demo_y": 0.3322,
+    "is_user": false
+  },
+  {
+    "id": "w_0020",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-07-03T08:09:00Z",
+    "local_hour": 8,
+    "voice_family": "adult_male",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "iş",
+    "demo_x": 0.3736,
+    "demo_y": -0.9736,
+    "is_user": false
+  },
+  {
+    "id": "w_0021",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-09-01T04:14:00Z",
+    "local_hour": 4,
+    "voice_family": "girl",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "iş",
+    "demo_x": 0.5446,
+    "demo_y": 0.4072,
+    "is_user": false
+  },
+  {
+    "id": "w_0022",
+    "text": "Otobüs durağında insanlar yağmurdan birbirine sokuldu.",
+    "created_at_utc": "2026-08-18T04:45:00Z",
+    "local_hour": 4,
+    "voice_family": "adult_male",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.3782,
+    "demo_y": -0.9438,
+    "is_user": false
+  },
+  {
+    "id": "w_0023",
+    "text": "Bir kedinin karşıya geçmesini arabalar bekledi.",
+    "created_at_utc": "2026-08-06T11:03:00Z",
+    "local_hour": 11,
+    "voice_family": "adult_female",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": 0.3232,
+    "demo_y": 0.747,
+    "is_user": false
+  },
+  {
+    "id": "w_0024",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-07-01T08:29:00Z",
+    "local_hour": 8,
+    "voice_family": "girl",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "iş",
+    "demo_x": 0.149,
+    "demo_y": 0.916,
+    "is_user": false
+  },
+  {
+    "id": "w_0025",
+    "text": "Annemin saçlarının biraz daha beyazladığını fark ettim.",
+    "created_at_utc": "2026-09-05T07:53:00Z",
+    "local_hour": 7,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.9684,
+    "demo_y": -0.3682,
+    "is_user": false
+  },
+  {
+    "id": "w_0026",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-07-15T14:05:00Z",
+    "local_hour": 14,
+    "voice_family": "adult_male",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "doğa",
+    "demo_x": 0.278,
+    "demo_y": 0.6504,
+    "is_user": false
+  },
+  {
+    "id": "w_0027",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-07-24T14:57:00Z",
+    "local_hour": 14,
+    "voice_family": "girl",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "iş",
+    "demo_x": 0.1626,
+    "demo_y": -0.4542,
+    "is_user": false
+  },
+  {
+    "id": "w_0028",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-09-16T06:43:00Z",
+    "local_hour": 6,
+    "voice_family": "boy",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "iş",
+    "demo_x": 0.8718,
+    "demo_y": -0.0914,
+    "is_user": false
+  },
+  {
+    "id": "w_0029",
+    "text": "Uzun zamandır ilk kez sonbaharı hissettim.",
+    "created_at_utc": "2026-09-07T05:29:00Z",
+    "local_hour": 5,
+    "voice_family": "adult_male",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "zaman",
+    "demo_x": 0.5676,
+    "demo_y": 0.262,
+    "is_user": false
+  },
+  {
+    "id": "w_0030",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-08-31T19:07:00Z",
+    "local_hour": 19,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "doğa",
+    "demo_x": 0.7084,
+    "demo_y": -0.2914,
+    "is_user": false
+  },
+  {
+    "id": "w_0031",
+    "text": "Annemin saçlarının biraz daha beyazladığını fark ettim.",
+    "created_at_utc": "2026-07-11T23:13:00Z",
+    "local_hour": 23,
+    "voice_family": "adult_male",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.8328,
+    "demo_y": 0.4652,
+    "is_user": false
+  },
+  {
+    "id": "w_0032",
+    "text": "Köpeğim uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-08-13T13:51:00Z",
+    "local_hour": 13,
+    "voice_family": "adult_female",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": 0.1258,
+    "demo_y": 0.4324,
+    "is_user": false
+  },
+  {
+    "id": "w_0033",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-09-25T07:07:00Z",
+    "local_hour": 7,
+    "voice_family": "girl",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "iş",
+    "demo_x": -0.751,
+    "demo_y": 0.457,
+    "is_user": false
+  },
+  {
+    "id": "w_0034",
+    "text": "gökyüzü beklediğimden daha turuncuydu.",
+    "created_at_utc": "2026-09-17T17:17:00Z",
+    "local_hour": 17,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "doğa",
+    "demo_x": 0.4066,
+    "demo_y": -0.8978,
+    "is_user": false
+  },
+  {
+    "id": "w_0035",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-07-11T02:40:00Z",
+    "local_hour": 2,
+    "voice_family": "adult_male",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "insanlar",
+    "demo_x": -0.0832,
+    "demo_y": -0.2358,
+    "is_user": false
+  },
+  {
+    "id": "w_0036",
+    "text": "Babam bugün eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-09-01T00:26:00Z",
+    "local_hour": 0,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.0762,
+    "demo_y": -0.799,
+    "is_user": false
+  },
+  {
+    "id": "w_0037",
+    "text": "Bugün gökyüzü beklediğimden daha turuncuydu.",
+    "created_at_utc": "2026-07-26T18:27:00Z",
+    "local_hour": 18,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.6924,
+    "demo_y": 0.6494,
+    "is_user": false
+  },
+  {
+    "id": "w_0038",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-07-14T23:21:00Z",
+    "local_hour": 23,
+    "voice_family": "adult_male",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.1364,
+    "demo_y": 0.3764,
+    "is_user": false
+  },
+  {
+    "id": "w_0039",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-07-18T05:28:00Z",
+    "local_hour": 5,
+    "voice_family": "girl",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "iş",
+    "demo_x": 0.8424,
+    "demo_y": 0.2616,
+    "is_user": false
+  },
+  {
+    "id": "w_0040",
+    "text": "Kalabalığın içinde tek başına yemek yiyen birini gördüm.",
+    "created_at_utc": "2026-09-12T06:10:00Z",
+    "local_hour": 6,
+    "voice_family": "girl",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "yalnızlık",
+    "demo_x": 0.8966,
+    "demo_y": 0,
+    "is_user": false
+  },
+  {
+    "id": "w_0041",
+    "text": "Annemin saçlarının biraz daha beyazladığını fark ettim.",
+    "created_at_utc": "2026-08-18T12:41:00Z",
+    "local_hour": 12,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.5006,
+    "demo_y": -0.3162,
+    "is_user": false
+  },
+  {
+    "id": "w_0042",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-09-27T20:17:00Z",
+    "local_hour": 20,
+    "voice_family": "boy",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "iş",
+    "demo_x": 0.8112,
+    "demo_y": -0.3494,
+    "is_user": false
+  },
+  {
+    "id": "w_0043",
+    "text": "Bugün gökyüzü beklediğimden daha turuncuydu.",
+    "created_at_utc": "2026-07-12T08:19:00Z",
+    "local_hour": 8,
+    "voice_family": "boy",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "doğa",
+    "demo_x": -0.3466,
+    "demo_y": 0.38,
+    "is_user": false
+  },
+  {
+    "id": "w_0044",
+    "text": "Babam eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-09-26T01:07:00Z",
+    "local_hour": 1,
+    "voice_family": "adult_male",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.2646,
+    "demo_y": 0.1296,
+    "is_user": false
+  },
+  {
+    "id": "w_0045",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-08-04T01:52:00Z",
+    "local_hour": 1,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "iş",
+    "demo_x": -0.978,
+    "demo_y": 0.8894,
+    "is_user": false
+  },
+  {
+    "id": "w_0046",
+    "text": "Uzun zamandır ilk kez sonbaharı hissettim.",
+    "created_at_utc": "2026-08-15T01:43:00Z",
+    "local_hour": 1,
+    "voice_family": "adult_male",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "zaman",
+    "demo_x": 0.5322,
+    "demo_y": -0.44,
+    "is_user": false
+  },
+  {
+    "id": "w_0047",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-08-27T20:14:00Z",
+    "local_hour": 20,
+    "voice_family": "boy",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.06,
+    "demo_y": -0.2098,
+    "is_user": false
+  },
+  {
+    "id": "w_0048",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-07-25T01:48:00Z",
+    "local_hour": 1,
+    "voice_family": "boy",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "doğa",
+    "demo_x": 0.7612,
+    "demo_y": 0.1416,
+    "is_user": false
+  },
+  {
+    "id": "w_0049",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-07-14T10:56:00Z",
+    "local_hour": 10,
+    "voice_family": "adult_male",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "insanlar",
+    "demo_x": -0.9286,
+    "demo_y": -0.5744,
+    "is_user": false
+  },
+  {
+    "id": "w_0050",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-08-18T12:40:00Z",
+    "local_hour": 12,
+    "voice_family": "adult_male",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.7922,
+    "demo_y": 0.8112,
+    "is_user": false
+  },
+  {
+    "id": "w_0051",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-07-29T23:12:00Z",
+    "local_hour": 23,
+    "voice_family": "adult_male",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "doğa",
+    "demo_x": 0.7148,
+    "demo_y": -0.3632,
+    "is_user": false
+  },
+  {
+    "id": "w_0052",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-07-20T02:34:00Z",
+    "local_hour": 2,
+    "voice_family": "adult_male",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "iş",
+    "demo_x": 0.5686,
+    "demo_y": -0.5832,
+    "is_user": false
+  },
+  {
+    "id": "w_0053",
+    "text": "Vapurun arkasından gelen martıları izledim.",
+    "created_at_utc": "2026-07-29T13:09:00Z",
+    "local_hour": 13,
+    "voice_family": "adult_female",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.3434,
+    "demo_y": 0.7332,
+    "is_user": false
+  },
+  {
+    "id": "w_0054",
+    "text": "Köpeğim uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-08-18T07:21:00Z",
+    "local_hour": 7,
+    "voice_family": "boy",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": 0.978,
+    "demo_y": -0.9094,
+    "is_user": false
+  },
+  {
+    "id": "w_0055",
+    "text": "Babam eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-09-16T08:37:00Z",
+    "local_hour": 8,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.4338,
+    "demo_y": -0.161,
+    "is_user": false
+  },
+  {
+    "id": "w_0056",
+    "text": "Köpeğim bugün uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-08-17T22:30:00Z",
+    "local_hour": 22,
+    "voice_family": "girl",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.158,
+    "demo_y": -0.1982,
+    "is_user": false
+  },
+  {
+    "id": "w_0057",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-07-14T22:44:00Z",
+    "local_hour": 22,
+    "voice_family": "adult_female",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "iş",
+    "demo_x": -0.5032,
+    "demo_y": -0.327,
+    "is_user": false
+  },
+  {
+    "id": "w_0058",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-09-06T11:07:00Z",
+    "local_hour": 11,
+    "voice_family": "girl",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "iş",
+    "demo_x": 0.5804,
+    "demo_y": -0.4402,
+    "is_user": false
+  },
+  {
+    "id": "w_0059",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-09-05T15:11:00Z",
+    "local_hour": 15,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.6506,
+    "demo_y": 0.3278,
+    "is_user": false
+  },
+  {
+    "id": "w_0060",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-09-03T15:14:00Z",
+    "local_hour": 15,
+    "voice_family": "adult_female",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.9188,
+    "demo_y": 0.3222,
+    "is_user": false
+  },
+  {
+    "id": "w_0061",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-08-02T11:33:00Z",
+    "local_hour": 11,
+    "voice_family": "adult_female",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "doğa",
+    "demo_x": 0.0934,
+    "demo_y": -0.9544,
+    "is_user": false
+  },
+  {
+    "id": "w_0062",
+    "text": "Köpeğim bugün uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-09-14T04:48:00Z",
+    "local_hour": 4,
+    "voice_family": "adult_female",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "hayvanlar",
+    "demo_x": 0.5556,
+    "demo_y": 0.599,
+    "is_user": false
+  },
+  {
+    "id": "w_0063",
+    "text": "Yağmur başlayınca sokak bir anda boşaldı.",
+    "created_at_utc": "2026-07-20T22:16:00Z",
+    "local_hour": 22,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.3804,
+    "demo_y": 0.4338,
+    "is_user": false
+  },
+  {
+    "id": "w_0064",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-09-23T01:05:00Z",
+    "local_hour": 1,
+    "voice_family": "adult_female",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "doğa",
+    "demo_x": 0.7746,
+    "demo_y": -0.718,
+    "is_user": false
+  },
+  {
+    "id": "w_0065",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-08-05T09:47:00Z",
+    "local_hour": 9,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.7748,
+    "demo_y": -0.2786,
+    "is_user": false
+  },
+  {
+    "id": "w_0066",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-08-21T01:30:00Z",
+    "local_hour": 1,
+    "voice_family": "boy",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.5484,
+    "demo_y": 0.9126,
+    "is_user": false
+  },
+  {
+    "id": "w_0067",
+    "text": "Annemin saçlarının biraz daha beyazladığını fark ettim.",
+    "created_at_utc": "2026-08-17T19:15:00Z",
+    "local_hour": 19,
+    "voice_family": "adult_male",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.2402,
+    "demo_y": -0.0012,
+    "is_user": false
+  },
+  {
+    "id": "w_0068",
+    "text": "Vapurun arkasından gelen martıları izledim.",
+    "created_at_utc": "2026-09-02T04:19:00Z",
+    "local_hour": 4,
+    "voice_family": "boy",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "şehir",
+    "demo_x": -0.0564,
+    "demo_y": -0.0302,
+    "is_user": false
+  },
+  {
+    "id": "w_0069",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-07-22T07:15:00Z",
+    "local_hour": 7,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "insanlar",
+    "demo_x": -0.9372,
+    "demo_y": -0.6916,
+    "is_user": false
+  },
+  {
+    "id": "w_0070",
+    "text": "Babam bugün eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-07-01T13:23:00Z",
+    "local_hour": 13,
+    "voice_family": "boy",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.2468,
+    "demo_y": -0.4746,
+    "is_user": false
+  },
+  {
+    "id": "w_0071",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-08-30T08:39:00Z",
+    "local_hour": 8,
+    "voice_family": "adult_male",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "insanlar",
+    "demo_x": -0.7486,
+    "demo_y": -0.1546,
+    "is_user": false
+  },
+  {
+    "id": "w_0072",
+    "text": "Bir kedinin karşıya geçmesini arabalar bekledi.",
+    "created_at_utc": "2026-09-13T14:17:00Z",
+    "local_hour": 14,
+    "voice_family": "boy",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.0744,
+    "demo_y": -0.8116,
+    "is_user": false
+  },
+  {
+    "id": "w_0073",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-09-15T18:57:00Z",
+    "local_hour": 18,
+    "voice_family": "girl",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "iş",
+    "demo_x": 0.971,
+    "demo_y": 0.6212,
+    "is_user": false
+  },
+  {
+    "id": "w_0074",
+    "text": "Otobüs durağında insanlar yağmurdan birbirine sokuldu.",
+    "created_at_utc": "2026-08-25T00:52:00Z",
+    "local_hour": 0,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.1776,
+    "demo_y": 0.5292,
+    "is_user": false
+  },
+  {
+    "id": "w_0075",
+    "text": "Bir kedinin karşıya geçmesini arabalar bekledi.",
+    "created_at_utc": "2026-08-28T21:55:00Z",
+    "local_hour": 21,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": 0.632,
+    "demo_y": 0.7904,
+    "is_user": false
+  },
+  {
+    "id": "w_0076",
+    "text": "Bugün gökyüzü beklediğimden daha turuncuydu.",
+    "created_at_utc": "2026-08-01T03:23:00Z",
+    "local_hour": 3,
+    "voice_family": "adult_male",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "doğa",
+    "demo_x": -0.81,
+    "demo_y": -0.6188,
+    "is_user": false
+  },
+  {
+    "id": "w_0077",
+    "text": "Bir kedinin karşıya geçmesini arabalar bekledi.",
+    "created_at_utc": "2026-08-31T06:27:00Z",
+    "local_hour": 6,
+    "voice_family": "boy",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.1824,
+    "demo_y": 0.458,
+    "is_user": false
+  },
+  {
+    "id": "w_0078",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-07-28T01:47:00Z",
+    "local_hour": 1,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.4958,
+    "demo_y": -0.682,
+    "is_user": false
+  },
+  {
+    "id": "w_0079",
+    "text": "Kalabalığın içinde tek başına yemek yiyen birini gördüm.",
+    "created_at_utc": "2026-07-14T12:11:00Z",
+    "local_hour": 12,
+    "voice_family": "adult_female",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "yalnızlık",
+    "demo_x": -0.306,
+    "demo_y": 0.8738,
+    "is_user": false
+  },
+  {
+    "id": "w_0080",
+    "text": "Uzun zamandır ilk kez sonbaharı hissettim.",
+    "created_at_utc": "2026-08-14T15:59:00Z",
+    "local_hour": 15,
+    "voice_family": "adult_male",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "zaman",
+    "demo_x": -0.5712,
+    "demo_y": 0.0546,
+    "is_user": false
+  },
+  {
+    "id": "w_0081",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-09-23T19:38:00Z",
+    "local_hour": 19,
+    "voice_family": "adult_male",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.077,
+    "demo_y": 0.7984,
+    "is_user": false
+  },
+  {
+    "id": "w_0082",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-09-23T20:03:00Z",
+    "local_hour": 20,
+    "voice_family": "boy",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "insanlar",
+    "demo_x": -0.4294,
+    "demo_y": 0.1504,
+    "is_user": false
+  },
+  {
+    "id": "w_0083",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-10-01T03:24:00Z",
+    "local_hour": 3,
+    "voice_family": "adult_female",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "insanlar",
+    "demo_x": -0.4782,
+    "demo_y": 0.9326,
+    "is_user": false
+  },
+  {
+    "id": "w_0084",
+    "text": "Kalabalığın içinde tek başına yemek yiyen birini gördüm.",
+    "created_at_utc": "2026-08-15T06:12:00Z",
+    "local_hour": 6,
+    "voice_family": "boy",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "yalnızlık",
+    "demo_x": -0.2906,
+    "demo_y": -0.2184,
+    "is_user": false
+  },
+  {
+    "id": "w_0085",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-08-13T19:16:00Z",
+    "local_hour": 19,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "iş",
+    "demo_x": 0.8906,
+    "demo_y": 0.0216,
+    "is_user": false
+  },
+  {
+    "id": "w_0086",
+    "text": "Bir kedinin karşıya geçmesini arabalar bekledi.",
+    "created_at_utc": "2026-08-31T09:20:00Z",
+    "local_hour": 9,
+    "voice_family": "adult_female",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.9004,
+    "demo_y": 0.8544,
+    "is_user": false
+  },
+  {
+    "id": "w_0087",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-07-29T01:36:00Z",
+    "local_hour": 1,
+    "voice_family": "adult_female",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "şehir",
+    "demo_x": 0.1332,
+    "demo_y": -0.8066,
+    "is_user": false
+  },
+  {
+    "id": "w_0088",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-08-30T11:38:00Z",
+    "local_hour": 11,
+    "voice_family": "girl",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.3888,
+    "demo_y": -0.4694,
+    "is_user": false
+  },
+  {
+    "id": "w_0089",
+    "text": "Babam eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-09-15T17:38:00Z",
+    "local_hour": 17,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.6978,
+    "demo_y": -0.5372,
+    "is_user": false
+  },
+  {
+    "id": "w_0090",
+    "text": "Kalabalığın içinde tek başına yemek yiyen birini gördüm.",
+    "created_at_utc": "2026-09-03T06:51:00Z",
+    "local_hour": 6,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "yalnızlık",
+    "demo_x": 0.1722,
+    "demo_y": 0.8056,
+    "is_user": false
+  },
+  {
+    "id": "w_0091",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-08-10T09:32:00Z",
+    "local_hour": 9,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "iş",
+    "demo_x": 0.9504,
+    "demo_y": 0.3492,
+    "is_user": false
+  },
+  {
+    "id": "w_0092",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-09-10T00:56:00Z",
+    "local_hour": 0,
+    "voice_family": "adult_female",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.6826,
+    "demo_y": -0.712,
+    "is_user": false
+  },
+  {
+    "id": "w_0093",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-07-06T03:49:00Z",
+    "local_hour": 3,
+    "voice_family": "adult_male",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "insanlar",
+    "demo_x": -0.1106,
+    "demo_y": -0.1782,
+    "is_user": false
+  },
+  {
+    "id": "w_0094",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-09-23T07:11:00Z",
+    "local_hour": 7,
+    "voice_family": "boy",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "insanlar",
+    "demo_x": -0.8374,
+    "demo_y": 0.012,
+    "is_user": false
+  },
+  {
+    "id": "w_0095",
+    "text": "Uzun zamandır ilk kez sonbaharı hissettim.",
+    "created_at_utc": "2026-09-22T00:36:00Z",
+    "local_hour": 0,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "zaman",
+    "demo_x": 0.2868,
+    "demo_y": 0.181,
+    "is_user": false
+  },
+  {
+    "id": "w_0096",
+    "text": "Yağmur başlayınca sokak bir anda boşaldı.",
+    "created_at_utc": "2026-09-15T23:50:00Z",
+    "local_hour": 23,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.4612,
+    "demo_y": 0.2556,
+    "is_user": false
+  },
+  {
+    "id": "w_0097",
+    "text": "Annemin saçlarının biraz daha beyazladığını fark ettim.",
+    "created_at_utc": "2026-07-10T17:33:00Z",
+    "local_hour": 17,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.7528,
+    "demo_y": -0.5694,
+    "is_user": false
+  },
+  {
+    "id": "w_0098",
+    "text": "Babam bugün eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-08-15T06:23:00Z",
+    "local_hour": 6,
+    "voice_family": "adult_female",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.0054,
+    "demo_y": -0.381,
+    "is_user": false
+  },
+  {
+    "id": "w_0099",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-07-22T01:46:00Z",
+    "local_hour": 1,
+    "voice_family": "girl",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.4082,
+    "demo_y": 0.3758,
+    "is_user": false
+  },
+  {
+    "id": "w_0100",
+    "text": "Yağmur başlayınca sokak bir anda boşaldı.",
+    "created_at_utc": "2026-07-31T19:04:00Z",
+    "local_hour": 19,
+    "voice_family": "adult_female",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.7704,
+    "demo_y": -0.1402,
+    "is_user": false
+  },
+  {
+    "id": "w_0101",
+    "text": "Bir kedinin karşıya geçmesini arabalar bekledi.",
+    "created_at_utc": "2026-07-05T22:11:00Z",
+    "local_hour": 22,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.277,
+    "demo_y": -0.1248,
+    "is_user": false
+  },
+  {
+    "id": "w_0102",
+    "text": "gökyüzü beklediğimden daha turuncuydu.",
+    "created_at_utc": "2026-08-14T11:01:00Z",
+    "local_hour": 11,
+    "voice_family": "adult_male",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "doğa",
+    "demo_x": 0.6618,
+    "demo_y": -0.478,
+    "is_user": false
+  },
+  {
+    "id": "w_0103",
+    "text": "Kırmızı ışıkta herkesin acele ettiğini gördüm.",
+    "created_at_utc": "2026-09-02T10:57:00Z",
+    "local_hour": 10,
+    "voice_family": "boy",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "beklemek",
+    "demo_x": -0.617,
+    "demo_y": 0.1882,
+    "is_user": false
+  },
+  {
+    "id": "w_0104",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-09-01T08:51:00Z",
+    "local_hour": 8,
+    "voice_family": "girl",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.2466,
+    "demo_y": 0.2968,
+    "is_user": false
+  },
+  {
+    "id": "w_0105",
+    "text": "Vapurun arkasından gelen martıları izledim.",
+    "created_at_utc": "2026-09-05T04:25:00Z",
+    "local_hour": 4,
+    "voice_family": "girl",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "şehir",
+    "demo_x": -0.758,
+    "demo_y": 0.9098,
+    "is_user": false
+  },
+  {
+    "id": "w_0106",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-08-19T10:00:00Z",
+    "local_hour": 10,
+    "voice_family": "girl",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.1622,
+    "demo_y": -0.524,
+    "is_user": false
+  },
+  {
+    "id": "w_0107",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-08-19T02:38:00Z",
+    "local_hour": 2,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "insanlar",
+    "demo_x": -0.0102,
+    "demo_y": -0.3576,
+    "is_user": false
+  },
+  {
+    "id": "w_0108",
+    "text": "Yağmur başlayınca sokak bir anda boşaldı.",
+    "created_at_utc": "2026-08-14T15:27:00Z",
+    "local_hour": 15,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.8738,
+    "demo_y": 0.1374,
+    "is_user": false
+  },
+  {
+    "id": "w_0109",
+    "text": "Annemin saçlarının biraz daha beyazladığını fark ettim.",
+    "created_at_utc": "2026-08-29T10:00:00Z",
+    "local_hour": 10,
+    "voice_family": "adult_female",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.4388,
+    "demo_y": -0.527,
+    "is_user": false
+  },
+  {
+    "id": "w_0110",
+    "text": "Mahalledeki eski dükkânın kapandığını gördüm.",
+    "created_at_utc": "2026-09-01T04:57:00Z",
+    "local_hour": 4,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "zaman",
+    "demo_x": 0.9326,
+    "demo_y": 0.0802,
+    "is_user": false
+  },
+  {
+    "id": "w_0111",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-07-16T20:02:00Z",
+    "local_hour": 20,
+    "voice_family": "girl",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "iş",
+    "demo_x": -0.3668,
+    "demo_y": 0.6662,
+    "is_user": false
+  },
+  {
+    "id": "w_0112",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-09-25T22:04:00Z",
+    "local_hour": 22,
+    "voice_family": "girl",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "iş",
+    "demo_x": -0.9102,
+    "demo_y": -0.5872,
+    "is_user": false
+  },
+  {
+    "id": "w_0113",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-07-18T04:33:00Z",
+    "local_hour": 4,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "insanlar",
+    "demo_x": -0.8954,
+    "demo_y": -0.4808,
+    "is_user": false
+  },
+  {
+    "id": "w_0114",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-09-06T10:16:00Z",
+    "local_hour": 10,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.6964,
+    "demo_y": 0.1872,
+    "is_user": false
+  },
+  {
+    "id": "w_0115",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-09-21T20:26:00Z",
+    "local_hour": 20,
+    "voice_family": "boy",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "iş",
+    "demo_x": -0.23,
+    "demo_y": 0.5746,
+    "is_user": false
+  },
+  {
+    "id": "w_0116",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-08-05T07:24:00Z",
+    "local_hour": 7,
+    "voice_family": "adult_female",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "doğa",
+    "demo_x": 0.8066,
+    "demo_y": -0.4462,
+    "is_user": false
+  },
+  {
+    "id": "w_0117",
+    "text": "gökyüzü beklediğimden daha turuncuydu.",
+    "created_at_utc": "2026-09-27T09:29:00Z",
+    "local_hour": 9,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.832,
+    "demo_y": 0.1084,
+    "is_user": false
+  },
+  {
+    "id": "w_0118",
+    "text": "Bugün gökyüzü beklediğimden daha turuncuydu.",
+    "created_at_utc": "2026-09-04T22:42:00Z",
+    "local_hour": 22,
+    "voice_family": "adult_male",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "doğa",
+    "demo_x": 0.263,
+    "demo_y": -0.0804,
+    "is_user": false
+  },
+  {
+    "id": "w_0119",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-07-09T12:51:00Z",
+    "local_hour": 12,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "iş",
+    "demo_x": -0.1862,
+    "demo_y": -0.5922,
+    "is_user": false
+  },
+  {
+    "id": "w_0120",
+    "text": "Kalabalığın içinde tek başına yemek yiyen birini gördüm.",
+    "created_at_utc": "2026-07-03T11:35:00Z",
+    "local_hour": 11,
+    "voice_family": "girl",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "yalnızlık",
+    "demo_x": 0.934,
+    "demo_y": 0.2264,
+    "is_user": false
+  },
+  {
+    "id": "w_0121",
+    "text": "Kalabalığın içinde tek başına yemek yiyen birini gördüm.",
+    "created_at_utc": "2026-08-03T19:29:00Z",
+    "local_hour": 19,
+    "voice_family": "girl",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "yalnızlık",
+    "demo_x": 0.2364,
+    "demo_y": -0.2306,
+    "is_user": false
+  },
+  {
+    "id": "w_0122",
+    "text": "Vapurun arkasından gelen martıları izledim.",
+    "created_at_utc": "2026-09-12T04:43:00Z",
+    "local_hour": 4,
+    "voice_family": "adult_male",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.2558,
+    "demo_y": 0.171,
+    "is_user": false
+  },
+  {
+    "id": "w_0123",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-08-25T13:28:00Z",
+    "local_hour": 13,
+    "voice_family": "adult_male",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.5578,
+    "demo_y": 0.112,
+    "is_user": false
+  },
+  {
+    "id": "w_0124",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-08-11T08:02:00Z",
+    "local_hour": 8,
+    "voice_family": "girl",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "iş",
+    "demo_x": -0.015,
+    "demo_y": 0.4006,
+    "is_user": false
+  },
+  {
+    "id": "w_0125",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-09-17T07:35:00Z",
+    "local_hour": 7,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.178,
+    "demo_y": -0.8268,
+    "is_user": false
+  },
+  {
+    "id": "w_0126",
+    "text": "Bugün gökyüzü beklediğimden daha turuncuydu.",
+    "created_at_utc": "2026-08-18T10:15:00Z",
+    "local_hour": 10,
+    "voice_family": "adult_male",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "doğa",
+    "demo_x": 0.2782,
+    "demo_y": 0.6318,
+    "is_user": false
+  },
+  {
+    "id": "w_0127",
+    "text": "Otobüs durağında insanlar yağmurdan birbirine sokuldu.",
+    "created_at_utc": "2026-07-14T21:57:00Z",
+    "local_hour": 21,
+    "voice_family": "girl",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.6092,
+    "demo_y": -0.9926,
+    "is_user": false
+  },
+  {
+    "id": "w_0128",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-09-24T19:04:00Z",
+    "local_hour": 19,
+    "voice_family": "adult_female",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.0852,
+    "demo_y": 0.6768,
+    "is_user": false
+  },
+  {
+    "id": "w_0129",
+    "text": "Bir kedinin karşıya geçmesini arabalar bekledi.",
+    "created_at_utc": "2026-09-21T21:41:00Z",
+    "local_hour": 21,
+    "voice_family": "boy",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": 0.9752,
+    "demo_y": 0.2072,
+    "is_user": false
+  },
+  {
+    "id": "w_0130",
+    "text": "Kırmızı ışıkta herkesin acele ettiğini gördüm.",
+    "created_at_utc": "2026-08-06T06:17:00Z",
+    "local_hour": 6,
+    "voice_family": "adult_female",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "beklemek",
+    "demo_x": -0.9596,
+    "demo_y": 0.8496,
+    "is_user": false
+  },
+  {
+    "id": "w_0131",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-07-27T03:26:00Z",
+    "local_hour": 3,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.0126,
+    "demo_y": -0.5178,
+    "is_user": false
+  },
+  {
+    "id": "w_0132",
+    "text": "Bir kedinin karşıya geçmesini arabalar bekledi.",
+    "created_at_utc": "2026-08-22T18:57:00Z",
+    "local_hour": 18,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.9694,
+    "demo_y": -0.917,
+    "is_user": false
+  },
+  {
+    "id": "w_0133",
+    "text": "Bir kedinin karşıya geçmesini arabalar bekledi.",
+    "created_at_utc": "2026-08-19T19:27:00Z",
+    "local_hour": 19,
+    "voice_family": "girl",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": 0.8992,
+    "demo_y": -0.7798,
+    "is_user": false
+  },
+  {
+    "id": "w_0134",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-09-17T21:33:00Z",
+    "local_hour": 21,
+    "voice_family": "boy",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "aile",
+    "demo_x": 0.005,
+    "demo_y": 0.987,
+    "is_user": false
+  },
+  {
+    "id": "w_0135",
+    "text": "Bir koku bana yıllar önceki bir evi hatırlattı.",
+    "created_at_utc": "2026-07-17T21:00:00Z",
+    "local_hour": 21,
+    "voice_family": "boy",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "hafıza",
+    "demo_x": -0.1018,
+    "demo_y": 0.4378,
+    "is_user": false
+  },
+  {
+    "id": "w_0136",
+    "text": "Kırmızı ışıkta herkesin acele ettiğini gördüm.",
+    "created_at_utc": "2026-08-02T03:25:00Z",
+    "local_hour": 3,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "beklemek",
+    "demo_x": -0.298,
+    "demo_y": 0.664,
+    "is_user": false
+  },
+  {
+    "id": "w_0137",
+    "text": "Otobüs durağında insanlar yağmurdan birbirine sokuldu.",
+    "created_at_utc": "2026-09-18T14:24:00Z",
+    "local_hour": 14,
+    "voice_family": "girl",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "şehir",
+    "demo_x": 0.6326,
+    "demo_y": 0.6612,
+    "is_user": false
+  },
+  {
+    "id": "w_0138",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-09-13T14:06:00Z",
+    "local_hour": 14,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.926,
+    "demo_y": -0.357,
+    "is_user": false
+  },
+  {
+    "id": "w_0139",
+    "text": "Otobüs durağında insanlar yağmurdan birbirine sokuldu.",
+    "created_at_utc": "2026-09-29T10:44:00Z",
+    "local_hour": 10,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.4902,
+    "demo_y": 0.5206,
+    "is_user": false
+  },
+  {
+    "id": "w_0140",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-08-16T04:44:00Z",
+    "local_hour": 4,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "insanlar",
+    "demo_x": -0.8436,
+    "demo_y": 0.7206,
+    "is_user": false
+  },
+  {
+    "id": "w_0141",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-07-01T11:01:00Z",
+    "local_hour": 11,
+    "voice_family": "girl",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "iş",
+    "demo_x": -0.933,
+    "demo_y": 0.3982,
+    "is_user": false
+  },
+  {
+    "id": "w_0142",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-09-05T02:38:00Z",
+    "local_hour": 2,
+    "voice_family": "girl",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.069,
+    "demo_y": -0.1068,
+    "is_user": false
+  },
+  {
+    "id": "w_0143",
+    "text": "Babam eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-07-25T02:24:00Z",
+    "local_hour": 2,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.089,
+    "demo_y": 0.277,
+    "is_user": false
+  },
+  {
+    "id": "w_0144",
+    "text": "Vapurun arkasından gelen martıları izledim.",
+    "created_at_utc": "2026-08-13T19:30:00Z",
+    "local_hour": 19,
+    "voice_family": "adult_female",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "şehir",
+    "demo_x": -0.5258,
+    "demo_y": 0.2252,
+    "is_user": false
+  },
+  {
+    "id": "w_0145",
+    "text": "Bir kedinin karşıya geçmesini arabalar bekledi.",
+    "created_at_utc": "2026-09-13T12:32:00Z",
+    "local_hour": 12,
+    "voice_family": "adult_male",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.3398,
+    "demo_y": 0.9402,
+    "is_user": false
+  },
+  {
+    "id": "w_0146",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-07-29T06:42:00Z",
+    "local_hour": 6,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.7972,
+    "demo_y": 0.5382,
+    "is_user": false
+  },
+  {
+    "id": "w_0147",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-09-25T05:09:00Z",
+    "local_hour": 5,
+    "voice_family": "adult_female",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.1892,
+    "demo_y": -0.025,
+    "is_user": false
+  },
+  {
+    "id": "w_0148",
+    "text": "Uzun zamandır ilk kez sonbaharı hissettim.",
+    "created_at_utc": "2026-07-26T02:24:00Z",
+    "local_hour": 2,
+    "voice_family": "girl",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "zaman",
+    "demo_x": -0.7802,
+    "demo_y": 0.6796,
+    "is_user": false
+  },
+  {
+    "id": "w_0149",
+    "text": "Köpeğim bugün uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-08-18T21:17:00Z",
+    "local_hour": 21,
+    "voice_family": "boy",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": 0.4586,
+    "demo_y": 0.7648,
+    "is_user": false
+  },
+  {
+    "id": "w_0150",
+    "text": "Kırmızı ışıkta herkesin acele ettiğini gördüm.",
+    "created_at_utc": "2026-09-28T09:16:00Z",
+    "local_hour": 9,
+    "voice_family": "girl",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "beklemek",
+    "demo_x": -0.5758,
+    "demo_y": 0.3728,
+    "is_user": false
+  },
+  {
+    "id": "w_0151",
+    "text": "Mahalledeki eski dükkânın kapandığını gördüm.",
+    "created_at_utc": "2026-09-07T22:03:00Z",
+    "local_hour": 22,
+    "voice_family": "adult_female",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "zaman",
+    "demo_x": -0.6482,
+    "demo_y": 0.0516,
+    "is_user": false
+  },
+  {
+    "id": "w_0152",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-08-12T18:26:00Z",
+    "local_hour": 18,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "doğa",
+    "demo_x": 0.839,
+    "demo_y": -0.3244,
+    "is_user": false
+  },
+  {
+    "id": "w_0153",
+    "text": "Kalabalığın içinde tek başına yemek yiyen birini gördüm.",
+    "created_at_utc": "2026-09-08T15:37:00Z",
+    "local_hour": 15,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "yalnızlık",
+    "demo_x": -0.437,
+    "demo_y": -0.644,
+    "is_user": false
+  },
+  {
+    "id": "w_0154",
+    "text": "Babam eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-08-30T16:30:00Z",
+    "local_hour": 16,
+    "voice_family": "adult_male",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.187,
+    "demo_y": 0.9866,
+    "is_user": false
+  },
+  {
+    "id": "w_0155",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-07-04T01:03:00Z",
+    "local_hour": 1,
+    "voice_family": "adult_female",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "iş",
+    "demo_x": 0.7384,
+    "demo_y": 0.9484,
+    "is_user": false
+  },
+  {
+    "id": "w_0156",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-07-29T08:24:00Z",
+    "local_hour": 8,
+    "voice_family": "boy",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.7702,
+    "demo_y": -0.743,
+    "is_user": false
+  },
+  {
+    "id": "w_0157",
+    "text": "Köpeğim bugün uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-09-11T14:37:00Z",
+    "local_hour": 14,
+    "voice_family": "adult_male",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.5882,
+    "demo_y": 0.7176,
+    "is_user": false
+  },
+  {
+    "id": "w_0158",
+    "text": "Köpeğim bugün uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-09-08T10:17:00Z",
+    "local_hour": 10,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.615,
+    "demo_y": 0.2202,
+    "is_user": false
+  },
+  {
+    "id": "w_0159",
+    "text": "Bir koku bana yıllar önceki bir evi hatırlattı.",
+    "created_at_utc": "2026-08-22T13:34:00Z",
+    "local_hour": 13,
+    "voice_family": "girl",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "hafıza",
+    "demo_x": -0.4606,
+    "demo_y": 0.7748,
+    "is_user": false
+  },
+  {
+    "id": "w_0160",
+    "text": "Vapurun arkasından gelen martıları izledim.",
+    "created_at_utc": "2026-07-19T13:07:00Z",
+    "local_hour": 13,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.8484,
+    "demo_y": -0.8948,
+    "is_user": false
+  },
+  {
+    "id": "w_0161",
+    "text": "Annemin saçlarının biraz daha beyazladığını fark ettim.",
+    "created_at_utc": "2026-07-11T11:11:00Z",
+    "local_hour": 11,
+    "voice_family": "boy",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.0672,
+    "demo_y": 0.956,
+    "is_user": false
+  },
+  {
+    "id": "w_0162",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-09-14T06:16:00Z",
+    "local_hour": 6,
+    "voice_family": "adult_female",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.6206,
+    "demo_y": 0.442,
+    "is_user": false
+  },
+  {
+    "id": "w_0163",
+    "text": "Otobüs durağında insanlar yağmurdan birbirine sokuldu.",
+    "created_at_utc": "2026-09-08T21:21:00Z",
+    "local_hour": 21,
+    "voice_family": "girl",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.7758,
+    "demo_y": -0.4322,
+    "is_user": false
+  },
+  {
+    "id": "w_0164",
+    "text": "Kırmızı ışıkta herkesin acele ettiğini gördüm.",
+    "created_at_utc": "2026-09-23T04:47:00Z",
+    "local_hour": 4,
+    "voice_family": "boy",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "beklemek",
+    "demo_x": 0.0884,
+    "demo_y": 0.6264,
+    "is_user": false
+  },
+  {
+    "id": "w_0165",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-07-02T23:03:00Z",
+    "local_hour": 23,
+    "voice_family": "adult_female",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.222,
+    "demo_y": -0.0926,
+    "is_user": false
+  },
+  {
+    "id": "w_0166",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-09-02T03:47:00Z",
+    "local_hour": 3,
+    "voice_family": "girl",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.7848,
+    "demo_y": 0.865,
+    "is_user": false
+  },
+  {
+    "id": "w_0167",
+    "text": "Yağmur başlayınca sokak bir anda boşaldı.",
+    "created_at_utc": "2026-08-25T05:59:00Z",
+    "local_hour": 5,
+    "voice_family": "girl",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "doğa",
+    "demo_x": 0.5712,
+    "demo_y": -0.9022,
+    "is_user": false
+  },
+  {
+    "id": "w_0168",
+    "text": "Vapurun arkasından gelen martıları izledim.",
+    "created_at_utc": "2026-09-04T14:18:00Z",
+    "local_hour": 14,
+    "voice_family": "boy",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.9544,
+    "demo_y": 0.437,
+    "is_user": false
+  },
+  {
+    "id": "w_0169",
+    "text": "Annemin saçlarının biraz daha beyazladığını fark ettim.",
+    "created_at_utc": "2026-09-11T07:18:00Z",
+    "local_hour": 7,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.956,
+    "demo_y": 0.588,
+    "is_user": false
+  },
+  {
+    "id": "w_0170",
+    "text": "Bir koku bana yıllar önceki bir evi hatırlattı.",
+    "created_at_utc": "2026-08-22T08:24:00Z",
+    "local_hour": 8,
+    "voice_family": "adult_female",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "hafıza",
+    "demo_x": -0.2818,
+    "demo_y": 0.3678,
+    "is_user": false
+  },
+  {
+    "id": "w_0171",
+    "text": "Bugün gökyüzü beklediğimden daha turuncuydu.",
+    "created_at_utc": "2026-07-26T03:35:00Z",
+    "local_hour": 3,
+    "voice_family": "adult_male",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "doğa",
+    "demo_x": 0.711,
+    "demo_y": 0.2164,
+    "is_user": false
+  },
+  {
+    "id": "w_0172",
+    "text": "Babam bugün eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-09-19T11:59:00Z",
+    "local_hour": 11,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.4446,
+    "demo_y": 0.7318,
+    "is_user": false
+  },
+  {
+    "id": "w_0173",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-08-29T17:27:00Z",
+    "local_hour": 17,
+    "voice_family": "girl",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "aile",
+    "demo_x": 0.2464,
+    "demo_y": 0.961,
+    "is_user": false
+  },
+  {
+    "id": "w_0174",
+    "text": "Otobüs durağında insanlar yağmurdan birbirine sokuldu.",
+    "created_at_utc": "2026-09-05T20:27:00Z",
+    "local_hour": 20,
+    "voice_family": "adult_female",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.066,
+    "demo_y": -0.4492,
+    "is_user": false
+  },
+  {
+    "id": "w_0175",
+    "text": "Yağmur başlayınca sokak bir anda boşaldı.",
+    "created_at_utc": "2026-09-26T23:13:00Z",
+    "local_hour": 23,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.6886,
+    "demo_y": 0.539,
+    "is_user": false
+  },
+  {
+    "id": "w_0176",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-07-26T20:58:00Z",
+    "local_hour": 20,
+    "voice_family": "boy",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "insanlar",
+    "demo_x": -0.5302,
+    "demo_y": -0.458,
+    "is_user": false
+  },
+  {
+    "id": "w_0177",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-07-03T18:48:00Z",
+    "local_hour": 18,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.354,
+    "demo_y": 0.504,
+    "is_user": false
+  },
+  {
+    "id": "w_0178",
+    "text": "Mahalledeki eski dükkânın kapandığını gördüm.",
+    "created_at_utc": "2026-08-17T23:24:00Z",
+    "local_hour": 23,
+    "voice_family": "boy",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "zaman",
+    "demo_x": 0.2714,
+    "demo_y": -0.928,
+    "is_user": false
+  },
+  {
+    "id": "w_0179",
+    "text": "Vapurun arkasından gelen martıları izledim.",
+    "created_at_utc": "2026-09-25T01:54:00Z",
+    "local_hour": 1,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.1256,
+    "demo_y": 0.9336,
+    "is_user": false
+  },
+  {
+    "id": "w_0180",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-09-23T18:24:00Z",
+    "local_hour": 18,
+    "voice_family": "boy",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "aile",
+    "demo_x": -0.9738,
+    "demo_y": -0.7176,
+    "is_user": false
+  },
+  {
+    "id": "w_0181",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-07-09T12:07:00Z",
+    "local_hour": 12,
+    "voice_family": "girl",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "insanlar",
+    "demo_x": -0.8834,
+    "demo_y": -0.9234,
+    "is_user": false
+  },
+  {
+    "id": "w_0182",
+    "text": "Vapurun arkasından gelen martıları izledim.",
+    "created_at_utc": "2026-07-25T22:43:00Z",
+    "local_hour": 22,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.9658,
+    "demo_y": -0.8008,
+    "is_user": false
+  },
+  {
+    "id": "w_0183",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-07-29T09:07:00Z",
+    "local_hour": 9,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "iş",
+    "demo_x": -0.1968,
+    "demo_y": -0.6786,
+    "is_user": false
+  },
+  {
+    "id": "w_0184",
+    "text": "Bir koku bana yıllar önceki bir evi hatırlattı.",
+    "created_at_utc": "2026-08-21T04:12:00Z",
+    "local_hour": 4,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "hafıza",
+    "demo_x": 0.2218,
+    "demo_y": 0.6146,
+    "is_user": false
+  },
+  {
+    "id": "w_0185",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-08-13T05:35:00Z",
+    "local_hour": 5,
+    "voice_family": "boy",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "insanlar",
+    "demo_x": -0.5852,
+    "demo_y": 0.4806,
+    "is_user": false
+  },
+  {
+    "id": "w_0186",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-09-04T13:04:00Z",
+    "local_hour": 13,
+    "voice_family": "boy",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "iş",
+    "demo_x": 0.8104,
+    "demo_y": -0.1458,
+    "is_user": false
+  },
+  {
+    "id": "w_0187",
+    "text": "Bugün gökyüzü beklediğimden daha turuncuydu.",
+    "created_at_utc": "2026-09-22T00:41:00Z",
+    "local_hour": 0,
+    "voice_family": "adult_male",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.9468,
+    "demo_y": -0.1534,
+    "is_user": false
+  },
+  {
+    "id": "w_0188",
+    "text": "Babam bugün eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-08-14T14:10:00Z",
+    "local_hour": 14,
+    "voice_family": "adult_male",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.5002,
+    "demo_y": -0.8712,
+    "is_user": false
+  },
+  {
+    "id": "w_0189",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-08-09T13:30:00Z",
+    "local_hour": 13,
+    "voice_family": "adult_female",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "iş",
+    "demo_x": -0.9706,
+    "demo_y": 0.0952,
+    "is_user": false
+  },
+  {
+    "id": "w_0190",
+    "text": "Bir koku bana yıllar önceki bir evi hatırlattı.",
+    "created_at_utc": "2026-07-27T14:09:00Z",
+    "local_hour": 14,
+    "voice_family": "adult_female",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "hafıza",
+    "demo_x": 0.1196,
+    "demo_y": -0.622,
+    "is_user": false
+  },
+  {
+    "id": "w_0191",
+    "text": "Vapurun arkasından gelen martıları izledim.",
+    "created_at_utc": "2026-07-05T22:38:00Z",
+    "local_hour": 22,
+    "voice_family": "boy",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.8514,
+    "demo_y": -0.2888,
+    "is_user": false
+  },
+  {
+    "id": "w_0192",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-07-04T02:56:00Z",
+    "local_hour": 2,
+    "voice_family": "adult_male",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.1346,
+    "demo_y": -0.7176,
+    "is_user": false
+  },
+  {
+    "id": "w_0193",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-07-21T22:32:00Z",
+    "local_hour": 22,
+    "voice_family": "adult_male",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "şehir",
+    "demo_x": -0.5036,
+    "demo_y": -0.0942,
+    "is_user": false
+  },
+  {
+    "id": "w_0194",
+    "text": "Kalabalığın içinde tek başına yemek yiyen birini gördüm.",
+    "created_at_utc": "2026-09-05T03:46:00Z",
+    "local_hour": 3,
+    "voice_family": "girl",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "yalnızlık",
+    "demo_x": -0.5064,
+    "demo_y": -0.3488,
+    "is_user": false
+  },
+  {
+    "id": "w_0195",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-07-09T03:27:00Z",
+    "local_hour": 3,
+    "voice_family": "boy",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "iş",
+    "demo_x": 0.1176,
+    "demo_y": 0.076,
+    "is_user": false
+  },
+  {
+    "id": "w_0196",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-07-06T22:05:00Z",
+    "local_hour": 22,
+    "voice_family": "girl",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "insanlar",
+    "demo_x": -0.6014,
+    "demo_y": 0.2866,
+    "is_user": false
+  },
+  {
+    "id": "w_0197",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-09-28T12:01:00Z",
+    "local_hour": 12,
+    "voice_family": "girl",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "insanlar",
+    "demo_x": 0.111,
+    "demo_y": -0.305,
+    "is_user": false
+  },
+  {
+    "id": "w_0198",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-08-28T21:19:00Z",
+    "local_hour": 21,
+    "voice_family": "adult_male",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.0312,
+    "demo_y": -0.3948,
+    "is_user": false
+  },
+  {
+    "id": "w_0199",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-08-29T10:45:00Z",
+    "local_hour": 10,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.7872,
+    "demo_y": 0.8252,
+    "is_user": false
+  },
+  {
+    "id": "w_0200",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-07-19T07:19:00Z",
+    "local_hour": 7,
+    "voice_family": "adult_male",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "iş",
+    "demo_x": 0.103,
+    "demo_y": -0.8302,
+    "is_user": false
+  },
+  {
+    "id": "w_0201",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-08-09T09:27:00Z",
+    "local_hour": 9,
+    "voice_family": "adult_female",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "iş",
+    "demo_x": -0.9806,
+    "demo_y": 0.396,
+    "is_user": false
+  },
+  {
+    "id": "w_0202",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-09-21T19:22:00Z",
+    "local_hour": 19,
+    "voice_family": "adult_male",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.7788,
+    "demo_y": 0.3614,
+    "is_user": false
+  },
+  {
+    "id": "w_0203",
+    "text": "Köpeğim bugün uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-08-16T15:37:00Z",
+    "local_hour": 15,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.7314,
+    "demo_y": 0.4206,
+    "is_user": false
+  },
+  {
+    "id": "w_0204",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-07-16T18:57:00Z",
+    "local_hour": 18,
+    "voice_family": "adult_male",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.9876,
+    "demo_y": 0.284,
+    "is_user": false
+  },
+  {
+    "id": "w_0205",
+    "text": "Mahalledeki eski dükkânın kapandığını gördüm.",
+    "created_at_utc": "2026-07-12T04:03:00Z",
+    "local_hour": 4,
+    "voice_family": "adult_male",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "zaman",
+    "demo_x": 0.659,
+    "demo_y": -0.7734,
+    "is_user": false
+  },
+  {
+    "id": "w_0206",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-09-16T05:50:00Z",
+    "local_hour": 5,
+    "voice_family": "adult_male",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "insanlar",
+    "demo_x": 0.5162,
+    "demo_y": 0.506,
+    "is_user": false
+  },
+  {
+    "id": "w_0207",
+    "text": "Bir kedinin karşıya geçmesini arabalar bekledi.",
+    "created_at_utc": "2026-09-03T06:21:00Z",
+    "local_hour": 6,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.0206,
+    "demo_y": -0.0734,
+    "is_user": false
+  },
+  {
+    "id": "w_0208",
+    "text": "Kalabalığın içinde tek başına yemek yiyen birini gördüm.",
+    "created_at_utc": "2026-07-20T22:48:00Z",
+    "local_hour": 22,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "yalnızlık",
+    "demo_x": 0.716,
+    "demo_y": -0.8688,
+    "is_user": false
+  },
+  {
+    "id": "w_0209",
+    "text": "Yağmur başlayınca sokak bir anda boşaldı.",
+    "created_at_utc": "2026-09-17T08:49:00Z",
+    "local_hour": 8,
+    "voice_family": "boy",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.6806,
+    "demo_y": 0.824,
+    "is_user": false
+  },
+  {
+    "id": "w_0210",
+    "text": "Annemin saçlarının biraz daha beyazladığını fark ettim.",
+    "created_at_utc": "2026-08-26T11:58:00Z",
+    "local_hour": 11,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.0396,
+    "demo_y": -0.3212,
+    "is_user": false
+  },
+  {
+    "id": "w_0211",
+    "text": "Otobüs durağında insanlar yağmurdan birbirine sokuldu.",
+    "created_at_utc": "2026-09-12T05:03:00Z",
+    "local_hour": 5,
+    "voice_family": "adult_male",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.98,
+    "demo_y": 0.1666,
+    "is_user": false
+  },
+  {
+    "id": "w_0212",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-08-09T09:55:00Z",
+    "local_hour": 9,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.9248,
+    "demo_y": 0.4668,
+    "is_user": false
+  },
+  {
+    "id": "w_0213",
+    "text": "Köpeğim uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-08-26T23:33:00Z",
+    "local_hour": 23,
+    "voice_family": "boy",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "hayvanlar",
+    "demo_x": 0.5144,
+    "demo_y": -0.9558,
+    "is_user": false
+  },
+  {
+    "id": "w_0214",
+    "text": "Kırmızı ışıkta herkesin acele ettiğini gördüm.",
+    "created_at_utc": "2026-07-10T19:51:00Z",
+    "local_hour": 19,
+    "voice_family": "adult_male",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "beklemek",
+    "demo_x": 0.885,
+    "demo_y": -0.4418,
+    "is_user": false
+  },
+  {
+    "id": "w_0215",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-09-16T10:32:00Z",
+    "local_hour": 10,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.7562,
+    "demo_y": 0.0824,
+    "is_user": false
+  },
+  {
+    "id": "w_0216",
+    "text": "Yağmur başlayınca sokak bir anda boşaldı.",
+    "created_at_utc": "2026-07-21T23:16:00Z",
+    "local_hour": 23,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.5028,
+    "demo_y": -0.9844,
+    "is_user": false
+  },
+  {
+    "id": "w_0217",
+    "text": "Bir kedinin karşıya geçmesini arabalar bekledi.",
+    "created_at_utc": "2026-09-27T20:07:00Z",
+    "local_hour": 20,
+    "voice_family": "adult_male",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": 0.361,
+    "demo_y": -0.1862,
+    "is_user": false
+  },
+  {
+    "id": "w_0218",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-07-11T05:20:00Z",
+    "local_hour": 5,
+    "voice_family": "boy",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "doğa",
+    "demo_x": 0.9726,
+    "demo_y": 0.0712,
+    "is_user": false
+  },
+  {
+    "id": "w_0219",
+    "text": "Bugün gökyüzü beklediğimden daha turuncuydu.",
+    "created_at_utc": "2026-08-16T18:22:00Z",
+    "local_hour": 18,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.2746,
+    "demo_y": 0.4616,
+    "is_user": false
+  },
+  {
+    "id": "w_0220",
+    "text": "Annemin saçlarının biraz daha beyazladığını fark ettim.",
+    "created_at_utc": "2026-09-17T15:33:00Z",
+    "local_hour": 15,
+    "voice_family": "girl",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.7288,
+    "demo_y": -0.5986,
+    "is_user": false
+  },
+  {
+    "id": "w_0221",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-09-30T07:40:00Z",
+    "local_hour": 7,
+    "voice_family": "adult_male",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "iş",
+    "demo_x": -0.8706,
+    "demo_y": 0.6248,
+    "is_user": false
+  },
+  {
+    "id": "w_0222",
+    "text": "Uzun zamandır ilk kez sonbaharı hissettim.",
+    "created_at_utc": "2026-07-08T22:49:00Z",
+    "local_hour": 22,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "zaman",
+    "demo_x": -0.9944,
+    "demo_y": 0.755,
+    "is_user": false
+  },
+  {
+    "id": "w_0223",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-09-17T09:34:00Z",
+    "local_hour": 9,
+    "voice_family": "girl",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.588,
+    "demo_y": -0.6198,
+    "is_user": false
+  },
+  {
+    "id": "w_0224",
+    "text": "Bir kedinin karşıya geçmesini arabalar bekledi.",
+    "created_at_utc": "2026-07-05T01:07:00Z",
+    "local_hour": 1,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": 0.7092,
+    "demo_y": 0.2848,
+    "is_user": false
+  },
+  {
+    "id": "w_0225",
+    "text": "Mahalledeki eski dükkânın kapandığını gördüm.",
+    "created_at_utc": "2026-07-20T12:31:00Z",
+    "local_hour": 12,
+    "voice_family": "girl",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "zaman",
+    "demo_x": 0.0408,
+    "demo_y": -0.4442,
+    "is_user": false
+  },
+  {
+    "id": "w_0226",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-08-26T17:36:00Z",
+    "local_hour": 17,
+    "voice_family": "boy",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "iş",
+    "demo_x": -0.6746,
+    "demo_y": -0.3234,
+    "is_user": false
+  },
+  {
+    "id": "w_0227",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-07-31T20:34:00Z",
+    "local_hour": 20,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.4682,
+    "demo_y": 0.6686,
+    "is_user": false
+  },
+  {
+    "id": "w_0228",
+    "text": "Mahalledeki eski dükkânın kapandığını gördüm.",
+    "created_at_utc": "2026-07-28T03:16:00Z",
+    "local_hour": 3,
+    "voice_family": "adult_female",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "zaman",
+    "demo_x": -0.4862,
+    "demo_y": -0.1556,
+    "is_user": false
+  },
+  {
+    "id": "w_0229",
+    "text": "Yağmur başlayınca sokak bir anda boşaldı.",
+    "created_at_utc": "2026-07-29T01:53:00Z",
+    "local_hour": 1,
+    "voice_family": "adult_male",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "doğa",
+    "demo_x": 0.5324,
+    "demo_y": -0.5786,
+    "is_user": false
+  },
+  {
+    "id": "w_0230",
+    "text": "Otobüs durağında insanlar yağmurdan birbirine sokuldu.",
+    "created_at_utc": "2026-09-29T04:49:00Z",
+    "local_hour": 4,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.1556,
+    "demo_y": -0.3926,
+    "is_user": false
+  },
+  {
+    "id": "w_0231",
+    "text": "Köpeğim uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-07-13T16:20:00Z",
+    "local_hour": 16,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": 0.9462,
+    "demo_y": -0.4806,
+    "is_user": false
+  },
+  {
+    "id": "w_0232",
+    "text": "Yağmur başlayınca sokak bir anda boşaldı.",
+    "created_at_utc": "2026-09-03T07:39:00Z",
+    "local_hour": 7,
+    "voice_family": "boy",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.6094,
+    "demo_y": 0.0296,
+    "is_user": false
+  },
+  {
+    "id": "w_0233",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-07-11T14:33:00Z",
+    "local_hour": 14,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "insanlar",
+    "demo_x": -0.009,
+    "demo_y": 0.484,
+    "is_user": false
+  },
+  {
+    "id": "w_0234",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-09-09T05:49:00Z",
+    "local_hour": 5,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.347,
+    "demo_y": -0.7572,
+    "is_user": false
+  },
+  {
+    "id": "w_0235",
+    "text": "Kırmızı ışıkta herkesin acele ettiğini gördüm.",
+    "created_at_utc": "2026-08-28T18:46:00Z",
+    "local_hour": 18,
+    "voice_family": "adult_female",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "beklemek",
+    "demo_x": -0.0296,
+    "demo_y": -0.8456,
+    "is_user": false
+  },
+  {
+    "id": "w_0236",
+    "text": "Babam bugün eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-09-01T18:30:00Z",
+    "local_hour": 18,
+    "voice_family": "adult_male",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "aile",
+    "demo_x": 0.3544,
+    "demo_y": -0.5198,
+    "is_user": false
+  },
+  {
+    "id": "w_0237",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-07-08T09:00:00Z",
+    "local_hour": 9,
+    "voice_family": "girl",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "iş",
+    "demo_x": -0.711,
+    "demo_y": 0.2988,
+    "is_user": false
+  },
+  {
+    "id": "w_0238",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-07-30T03:34:00Z",
+    "local_hour": 3,
+    "voice_family": "boy",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "iş",
+    "demo_x": -0.6546,
+    "demo_y": -0.0124,
+    "is_user": false
+  },
+  {
+    "id": "w_0239",
+    "text": "Uzun zamandır ilk kez sonbaharı hissettim.",
+    "created_at_utc": "2026-08-31T20:20:00Z",
+    "local_hour": 20,
+    "voice_family": "adult_male",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "zaman",
+    "demo_x": -0.8476,
+    "demo_y": 0.9528,
+    "is_user": false
+  },
+  {
+    "id": "w_0240",
+    "text": "Köpeğim uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-07-18T10:54:00Z",
+    "local_hour": 10,
+    "voice_family": "boy",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": 0.3664,
+    "demo_y": 0.9346,
+    "is_user": false
+  },
+  {
+    "id": "w_0241",
+    "text": "Yağmur başlayınca sokak bir anda boşaldı.",
+    "created_at_utc": "2026-07-28T14:59:00Z",
+    "local_hour": 14,
+    "voice_family": "adult_female",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "doğa",
+    "demo_x": 0.9052,
+    "demo_y": -0.1872,
+    "is_user": false
+  },
+  {
+    "id": "w_0242",
+    "text": "Mahalledeki eski dükkânın kapandığını gördüm.",
+    "created_at_utc": "2026-09-10T14:29:00Z",
+    "local_hour": 14,
+    "voice_family": "boy",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "zaman",
+    "demo_x": 0.934,
+    "demo_y": -0.7704,
+    "is_user": false
+  },
+  {
+    "id": "w_0243",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-08-30T01:08:00Z",
+    "local_hour": 1,
+    "voice_family": "girl",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "iş",
+    "demo_x": 0.3822,
+    "demo_y": -0.2168,
+    "is_user": false
+  },
+  {
+    "id": "w_0244",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-09-05T06:12:00Z",
+    "local_hour": 6,
+    "voice_family": "adult_female",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "iş",
+    "demo_x": 0.9092,
+    "demo_y": -0.568,
+    "is_user": false
+  },
+  {
+    "id": "w_0245",
+    "text": "Köpeğim bugün uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-09-27T18:33:00Z",
+    "local_hour": 18,
+    "voice_family": "adult_female",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.099,
+    "demo_y": 0.643,
+    "is_user": false
+  },
+  {
+    "id": "w_0246",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-07-19T15:53:00Z",
+    "local_hour": 15,
+    "voice_family": "boy",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.5376,
+    "demo_y": 0.1324,
+    "is_user": false
+  },
+  {
+    "id": "w_0247",
+    "text": "Bir koku bana yıllar önceki bir evi hatırlattı.",
+    "created_at_utc": "2026-09-07T19:54:00Z",
+    "local_hour": 19,
+    "voice_family": "adult_female",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "hafıza",
+    "demo_x": -0.9096,
+    "demo_y": -0.3996,
+    "is_user": false
+  },
+  {
+    "id": "w_0248",
+    "text": "Bir koku bana yıllar önceki bir evi hatırlattı.",
+    "created_at_utc": "2026-07-31T09:15:00Z",
+    "local_hour": 9,
+    "voice_family": "girl",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "hafıza",
+    "demo_x": -0.4142,
+    "demo_y": -0.8656,
+    "is_user": false
+  },
+  {
+    "id": "w_0249",
+    "text": "Babam bugün eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-08-13T11:47:00Z",
+    "local_hour": 11,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.6822,
+    "demo_y": 0.992,
+    "is_user": false
+  },
+  {
+    "id": "w_0250",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-08-26T14:05:00Z",
+    "local_hour": 14,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "doğa",
+    "demo_x": 0.6426,
+    "demo_y": 0.2312,
+    "is_user": false
+  },
+  {
+    "id": "w_0251",
+    "text": "Kırmızı ışıkta herkesin acele ettiğini gördüm.",
+    "created_at_utc": "2026-09-23T07:06:00Z",
+    "local_hour": 7,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "beklemek",
+    "demo_x": 0.5314,
+    "demo_y": -0.936,
+    "is_user": false
+  },
+  {
+    "id": "w_0252",
+    "text": "Otobüs durağında insanlar yağmurdan birbirine sokuldu.",
+    "created_at_utc": "2026-07-26T10:40:00Z",
+    "local_hour": 10,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.9574,
+    "demo_y": -0.9174,
+    "is_user": false
+  },
+  {
+    "id": "w_0253",
+    "text": "Mahalledeki eski dükkânın kapandığını gördüm.",
+    "created_at_utc": "2026-07-19T22:13:00Z",
+    "local_hour": 22,
+    "voice_family": "adult_male",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "zaman",
+    "demo_x": -0.7316,
+    "demo_y": 0.2844,
+    "is_user": false
+  },
+  {
+    "id": "w_0254",
+    "text": "Bir kedinin karşıya geçmesini arabalar bekledi.",
+    "created_at_utc": "2026-07-30T10:24:00Z",
+    "local_hour": 10,
+    "voice_family": "adult_female",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.27,
+    "demo_y": 0.4052,
+    "is_user": false
+  },
+  {
+    "id": "w_0255",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-08-10T16:05:00Z",
+    "local_hour": 16,
+    "voice_family": "adult_male",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.1802,
+    "demo_y": -0.8236,
+    "is_user": false
+  },
+  {
+    "id": "w_0256",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-09-30T15:18:00Z",
+    "local_hour": 15,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.886,
+    "demo_y": -0.9152,
+    "is_user": false
+  },
+  {
+    "id": "w_0257",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-07-06T09:09:00Z",
+    "local_hour": 9,
+    "voice_family": "boy",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.2304,
+    "demo_y": -0.3286,
+    "is_user": false
+  },
+  {
+    "id": "w_0258",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-08-22T11:23:00Z",
+    "local_hour": 11,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.9956,
+    "demo_y": 0.8942,
+    "is_user": false
+  },
+  {
+    "id": "w_0259",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-07-15T16:08:00Z",
+    "local_hour": 16,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "insanlar",
+    "demo_x": -0.944,
+    "demo_y": -0.556,
+    "is_user": false
+  },
+  {
+    "id": "w_0260",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-09-16T07:13:00Z",
+    "local_hour": 7,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.3198,
+    "demo_y": 0.4996,
+    "is_user": false
+  },
+  {
+    "id": "w_0261",
+    "text": "Bir kedinin karşıya geçmesini arabalar bekledi.",
+    "created_at_utc": "2026-08-13T15:45:00Z",
+    "local_hour": 15,
+    "voice_family": "adult_male",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.3268,
+    "demo_y": 0.3866,
+    "is_user": false
+  },
+  {
+    "id": "w_0262",
+    "text": "Vapurun arkasından gelen martıları izledim.",
+    "created_at_utc": "2026-09-30T05:47:00Z",
+    "local_hour": 5,
+    "voice_family": "adult_female",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.933,
+    "demo_y": 0.7442,
+    "is_user": false
+  },
+  {
+    "id": "w_0263",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-07-01T12:50:00Z",
+    "local_hour": 12,
+    "voice_family": "adult_female",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.5086,
+    "demo_y": -0.6138,
+    "is_user": false
+  },
+  {
+    "id": "w_0264",
+    "text": "Kırmızı ışıkta herkesin acele ettiğini gördüm.",
+    "created_at_utc": "2026-07-16T20:03:00Z",
+    "local_hour": 20,
+    "voice_family": "adult_male",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "beklemek",
+    "demo_x": 0.4426,
+    "demo_y": 0.7448,
+    "is_user": false
+  },
+  {
+    "id": "w_0265",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-07-04T22:50:00Z",
+    "local_hour": 22,
+    "voice_family": "adult_male",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "iş",
+    "demo_x": -0.8246,
+    "demo_y": -0.2512,
+    "is_user": false
+  },
+  {
+    "id": "w_0266",
+    "text": "Uzun zamandır ilk kez sonbaharı hissettim.",
+    "created_at_utc": "2026-08-16T10:12:00Z",
+    "local_hour": 10,
+    "voice_family": "adult_male",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "zaman",
+    "demo_x": 0.113,
+    "demo_y": -0.6374,
+    "is_user": false
+  },
+  {
+    "id": "w_0267",
+    "text": "Mahalledeki eski dükkânın kapandığını gördüm.",
+    "created_at_utc": "2026-09-02T00:27:00Z",
+    "local_hour": 0,
+    "voice_family": "boy",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "zaman",
+    "demo_x": 0.4712,
+    "demo_y": -0.3742,
+    "is_user": false
+  },
+  {
+    "id": "w_0268",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-08-31T21:08:00Z",
+    "local_hour": 21,
+    "voice_family": "adult_female",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "şehir",
+    "demo_x": 0.5176,
+    "demo_y": -0.1208,
+    "is_user": false
+  },
+  {
+    "id": "w_0269",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-09-26T08:44:00Z",
+    "local_hour": 8,
+    "voice_family": "adult_female",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "insanlar",
+    "demo_x": -0.0246,
+    "demo_y": -0.4292,
+    "is_user": false
+  },
+  {
+    "id": "w_0270",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-09-22T13:37:00Z",
+    "local_hour": 13,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.5442,
+    "demo_y": 0.0496,
+    "is_user": false
+  },
+  {
+    "id": "w_0271",
+    "text": "Babam bugün eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-07-08T21:05:00Z",
+    "local_hour": 21,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.1974,
+    "demo_y": -0.79,
+    "is_user": false
+  },
+  {
+    "id": "w_0272",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-07-07T21:59:00Z",
+    "local_hour": 21,
+    "voice_family": "adult_female",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "iş",
+    "demo_x": -0.2876,
+    "demo_y": -0.092,
+    "is_user": false
+  },
+  {
+    "id": "w_0273",
+    "text": "Bir kedinin karşıya geçmesini arabalar bekledi.",
+    "created_at_utc": "2026-07-09T22:51:00Z",
+    "local_hour": 22,
+    "voice_family": "boy",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.4284,
+    "demo_y": 0.631,
+    "is_user": false
+  },
+  {
+    "id": "w_0274",
+    "text": "Yağmur başlayınca sokak bir anda boşaldı.",
+    "created_at_utc": "2026-09-06T05:54:00Z",
+    "local_hour": 5,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.3968,
+    "demo_y": -0.7334,
+    "is_user": false
+  },
+  {
+    "id": "w_0275",
+    "text": "Uzun zamandır ilk kez sonbaharı hissettim.",
+    "created_at_utc": "2026-08-04T06:13:00Z",
+    "local_hour": 6,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "zaman",
+    "demo_x": 0.5386,
+    "demo_y": 0.33,
+    "is_user": false
+  },
+  {
+    "id": "w_0276",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-07-16T06:56:00Z",
+    "local_hour": 6,
+    "voice_family": "girl",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "iş",
+    "demo_x": -0.5928,
+    "demo_y": 0.4932,
+    "is_user": false
+  },
+  {
+    "id": "w_0277",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-08-03T02:25:00Z",
+    "local_hour": 2,
+    "voice_family": "boy",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.5168,
+    "demo_y": -0.9542,
+    "is_user": false
+  },
+  {
+    "id": "w_0278",
+    "text": "Vapurun arkasından gelen martıları izledim.",
+    "created_at_utc": "2026-08-24T01:40:00Z",
+    "local_hour": 1,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.55,
+    "demo_y": -0.2522,
+    "is_user": false
+  },
+  {
+    "id": "w_0279",
+    "text": "Otobüs durağında insanlar yağmurdan birbirine sokuldu.",
+    "created_at_utc": "2026-09-03T05:55:00Z",
+    "local_hour": 5,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.8394,
+    "demo_y": -0.4172,
+    "is_user": false
+  },
+  {
+    "id": "w_0280",
+    "text": "Bir koku bana yıllar önceki bir evi hatırlattı.",
+    "created_at_utc": "2026-08-20T05:33:00Z",
+    "local_hour": 5,
+    "voice_family": "adult_male",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "hafıza",
+    "demo_x": -0.4796,
+    "demo_y": 0.1206,
+    "is_user": false
+  },
+  {
+    "id": "w_0281",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-09-13T04:45:00Z",
+    "local_hour": 4,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.0706,
+    "demo_y": 0.044,
+    "is_user": false
+  },
+  {
+    "id": "w_0282",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-09-19T00:24:00Z",
+    "local_hour": 0,
+    "voice_family": "adult_male",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.7014,
+    "demo_y": -0.1094,
+    "is_user": false
+  },
+  {
+    "id": "w_0283",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-09-05T22:30:00Z",
+    "local_hour": 22,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.0028,
+    "demo_y": -0.1932,
+    "is_user": false
+  },
+  {
+    "id": "w_0284",
+    "text": "Bir koku bana yıllar önceki bir evi hatırlattı.",
+    "created_at_utc": "2026-09-21T03:44:00Z",
+    "local_hour": 3,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "hafıza",
+    "demo_x": -0.1342,
+    "demo_y": -0.4042,
+    "is_user": false
+  },
+  {
+    "id": "w_0285",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-09-06T01:13:00Z",
+    "local_hour": 1,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.8434,
+    "demo_y": 0.1738,
+    "is_user": false
+  },
+  {
+    "id": "w_0286",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-07-05T23:13:00Z",
+    "local_hour": 23,
+    "voice_family": "adult_female",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "doğa",
+    "demo_x": -0.3988,
+    "demo_y": -0.643,
+    "is_user": false
+  },
+  {
+    "id": "w_0287",
+    "text": "Kalabalığın içinde tek başına yemek yiyen birini gördüm.",
+    "created_at_utc": "2026-07-22T16:30:00Z",
+    "local_hour": 16,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "yalnızlık",
+    "demo_x": 0.2572,
+    "demo_y": 0.1508,
+    "is_user": false
+  },
+  {
+    "id": "w_0288",
+    "text": "Bugün gökyüzü beklediğimden daha turuncuydu.",
+    "created_at_utc": "2026-08-22T05:42:00Z",
+    "local_hour": 5,
+    "voice_family": "girl",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "doğa",
+    "demo_x": 0.9832,
+    "demo_y": 0.1414,
+    "is_user": false
+  },
+  {
+    "id": "w_0289",
+    "text": "gökyüzü beklediğimden daha turuncuydu.",
+    "created_at_utc": "2026-07-14T17:32:00Z",
+    "local_hour": 17,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "doğa",
+    "demo_x": 0.714,
+    "demo_y": 0.4774,
+    "is_user": false
+  },
+  {
+    "id": "w_0290",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-08-28T10:18:00Z",
+    "local_hour": 10,
+    "voice_family": "boy",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "aile",
+    "demo_x": 0.5092,
+    "demo_y": 0.2468,
+    "is_user": false
+  },
+  {
+    "id": "w_0291",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-08-23T02:36:00Z",
+    "local_hour": 2,
+    "voice_family": "adult_female",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.8956,
+    "demo_y": 0.7664,
+    "is_user": false
+  },
+  {
+    "id": "w_0292",
+    "text": "Mahalledeki eski dükkânın kapandığını gördüm.",
+    "created_at_utc": "2026-07-23T08:14:00Z",
+    "local_hour": 8,
+    "voice_family": "adult_female",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "zaman",
+    "demo_x": -0.983,
+    "demo_y": -0.8002,
+    "is_user": false
+  },
+  {
+    "id": "w_0293",
+    "text": "Kalabalığın içinde tek başına yemek yiyen birini gördüm.",
+    "created_at_utc": "2026-09-06T09:47:00Z",
+    "local_hour": 9,
+    "voice_family": "adult_male",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "yalnızlık",
+    "demo_x": -0.751,
+    "demo_y": -0.504,
+    "is_user": false
+  },
+  {
+    "id": "w_0294",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-09-26T09:19:00Z",
+    "local_hour": 9,
+    "voice_family": "girl",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.0354,
+    "demo_y": 0.0112,
+    "is_user": false
+  },
+  {
+    "id": "w_0295",
+    "text": "Kırmızı ışıkta herkesin acele ettiğini gördüm.",
+    "created_at_utc": "2026-08-27T23:06:00Z",
+    "local_hour": 23,
+    "voice_family": "adult_male",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "beklemek",
+    "demo_x": 0.428,
+    "demo_y": 0.9542,
+    "is_user": false
+  },
+  {
+    "id": "w_0296",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-09-01T23:12:00Z",
+    "local_hour": 23,
+    "voice_family": "adult_female",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.4798,
+    "demo_y": 0.8594,
+    "is_user": false
+  },
+  {
+    "id": "w_0297",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-07-11T08:06:00Z",
+    "local_hour": 8,
+    "voice_family": "boy",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "insanlar",
+    "demo_x": -0.3716,
+    "demo_y": 0.326,
+    "is_user": false
+  },
+  {
+    "id": "w_0298",
+    "text": "Otobüs durağında insanlar yağmurdan birbirine sokuldu.",
+    "created_at_utc": "2026-08-11T07:05:00Z",
+    "local_hour": 7,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.6284,
+    "demo_y": -0.122,
+    "is_user": false
+  },
+  {
+    "id": "w_0299",
+    "text": "Yağmur başlayınca sokak bir anda boşaldı.",
+    "created_at_utc": "2026-08-20T05:05:00Z",
+    "local_hour": 5,
+    "voice_family": "adult_male",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "doğa",
+    "demo_x": 0.0794,
+    "demo_y": 0.7312,
+    "is_user": false
+  },
+  {
+    "id": "w_0300",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-07-29T07:41:00Z",
+    "local_hour": 7,
+    "voice_family": "adult_male",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "iş",
+    "demo_x": -0.1516,
+    "demo_y": -0.5156,
+    "is_user": false
+  },
+  {
+    "id": "w_0301",
+    "text": "Annemin saçlarının biraz daha beyazladığını fark ettim.",
+    "created_at_utc": "2026-08-18T10:17:00Z",
+    "local_hour": 10,
+    "voice_family": "adult_female",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "aile",
+    "demo_x": -0.1838,
+    "demo_y": 0.1814,
+    "is_user": false
+  },
+  {
+    "id": "w_0302",
+    "text": "Kırmızı ışıkta herkesin acele ettiğini gördüm.",
+    "created_at_utc": "2026-07-06T18:19:00Z",
+    "local_hour": 18,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "beklemek",
+    "demo_x": -0.8086,
+    "demo_y": 0.6768,
+    "is_user": false
+  },
+  {
+    "id": "w_0303",
+    "text": "Kalabalığın içinde tek başına yemek yiyen birini gördüm.",
+    "created_at_utc": "2026-09-13T04:14:00Z",
+    "local_hour": 4,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "yalnızlık",
+    "demo_x": 0.2762,
+    "demo_y": 0.3262,
+    "is_user": false
+  },
+  {
+    "id": "w_0304",
+    "text": "Babam eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-09-14T21:52:00Z",
+    "local_hour": 21,
+    "voice_family": "adult_female",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.7898,
+    "demo_y": 0.3638,
+    "is_user": false
+  },
+  {
+    "id": "w_0305",
+    "text": "Köpeğim bugün uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-08-27T03:41:00Z",
+    "local_hour": 3,
+    "voice_family": "boy",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.5344,
+    "demo_y": -0.9216,
+    "is_user": false
+  },
+  {
+    "id": "w_0306",
+    "text": "Mahalledeki eski dükkânın kapandığını gördüm.",
+    "created_at_utc": "2026-07-25T01:19:00Z",
+    "local_hour": 1,
+    "voice_family": "boy",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "zaman",
+    "demo_x": -0.1906,
+    "demo_y": 0.0132,
+    "is_user": false
+  },
+  {
+    "id": "w_0307",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-08-18T22:36:00Z",
+    "local_hour": 22,
+    "voice_family": "adult_female",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "doğa",
+    "demo_x": 0.9466,
+    "demo_y": -0.7598,
+    "is_user": false
+  },
+  {
+    "id": "w_0308",
+    "text": "Vapurun arkasından gelen martıları izledim.",
+    "created_at_utc": "2026-09-09T04:22:00Z",
+    "local_hour": 4,
+    "voice_family": "adult_female",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.514,
+    "demo_y": -0.0784,
+    "is_user": false
+  },
+  {
+    "id": "w_0309",
+    "text": "Otobüs durağında insanlar yağmurdan birbirine sokuldu.",
+    "created_at_utc": "2026-08-27T04:16:00Z",
+    "local_hour": 4,
+    "voice_family": "girl",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.6188,
+    "demo_y": 0.8804,
+    "is_user": false
+  },
+  {
+    "id": "w_0310",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-08-26T10:02:00Z",
+    "local_hour": 10,
+    "voice_family": "adult_male",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "iş",
+    "demo_x": 0.905,
+    "demo_y": -0.9952,
+    "is_user": false
+  },
+  {
+    "id": "w_0311",
+    "text": "Uzun zamandır ilk kez sonbaharı hissettim.",
+    "created_at_utc": "2026-08-14T01:45:00Z",
+    "local_hour": 1,
+    "voice_family": "adult_male",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "zaman",
+    "demo_x": 0.9616,
+    "demo_y": -0.855,
+    "is_user": false
+  },
+  {
+    "id": "w_0312",
+    "text": "Babam bugün eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-09-24T22:01:00Z",
+    "local_hour": 22,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.8178,
+    "demo_y": -0.8186,
+    "is_user": false
+  },
+  {
+    "id": "w_0313",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-08-18T09:29:00Z",
+    "local_hour": 9,
+    "voice_family": "boy",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "insanlar",
+    "demo_x": 0.6458,
+    "demo_y": -0.7204,
+    "is_user": false
+  },
+  {
+    "id": "w_0314",
+    "text": "Uzun zamandır ilk kez sonbaharı hissettim.",
+    "created_at_utc": "2026-09-12T04:10:00Z",
+    "local_hour": 4,
+    "voice_family": "boy",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "zaman",
+    "demo_x": -0.391,
+    "demo_y": -0.5702,
+    "is_user": false
+  },
+  {
+    "id": "w_0315",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-09-09T13:59:00Z",
+    "local_hour": 13,
+    "voice_family": "boy",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "iş",
+    "demo_x": -0.8466,
+    "demo_y": -0.2752,
+    "is_user": false
+  },
+  {
+    "id": "w_0316",
+    "text": "Bir koku bana yıllar önceki bir evi hatırlattı.",
+    "created_at_utc": "2026-07-22T21:05:00Z",
+    "local_hour": 21,
+    "voice_family": "girl",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "hafıza",
+    "demo_x": -0.1562,
+    "demo_y": -0.1968,
+    "is_user": false
+  },
+  {
+    "id": "w_0317",
+    "text": "Mahalledeki eski dükkânın kapandığını gördüm.",
+    "created_at_utc": "2026-08-31T23:29:00Z",
+    "local_hour": 23,
+    "voice_family": "adult_female",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "zaman",
+    "demo_x": 0.9242,
+    "demo_y": -0.768,
+    "is_user": false
+  },
+  {
+    "id": "w_0318",
+    "text": "Bugün gökyüzü beklediğimden daha turuncuydu.",
+    "created_at_utc": "2026-09-12T07:41:00Z",
+    "local_hour": 7,
+    "voice_family": "adult_male",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.0414,
+    "demo_y": 0.444,
+    "is_user": false
+  },
+  {
+    "id": "w_0319",
+    "text": "Babam eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-08-30T21:04:00Z",
+    "local_hour": 21,
+    "voice_family": "adult_female",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.097,
+    "demo_y": -0.2934,
+    "is_user": false
+  },
+  {
+    "id": "w_0320",
+    "text": "Bir koku bana yıllar önceki bir evi hatırlattı.",
+    "created_at_utc": "2026-07-26T16:42:00Z",
+    "local_hour": 16,
+    "voice_family": "adult_female",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "hafıza",
+    "demo_x": 0.6836,
+    "demo_y": -0.8712,
+    "is_user": false
+  },
+  {
+    "id": "w_0321",
+    "text": "Uzun zamandır ilk kez sonbaharı hissettim.",
+    "created_at_utc": "2026-08-24T17:22:00Z",
+    "local_hour": 17,
+    "voice_family": "girl",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "zaman",
+    "demo_x": 0.1652,
+    "demo_y": 0.7418,
+    "is_user": false
+  },
+  {
+    "id": "w_0322",
+    "text": "Kırmızı ışıkta herkesin acele ettiğini gördüm.",
+    "created_at_utc": "2026-07-04T06:41:00Z",
+    "local_hour": 6,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "beklemek",
+    "demo_x": 0.2116,
+    "demo_y": -0.47,
+    "is_user": false
+  },
+  {
+    "id": "w_0323",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-07-06T02:25:00Z",
+    "local_hour": 2,
+    "voice_family": "boy",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.1064,
+    "demo_y": 0.0742,
+    "is_user": false
+  },
+  {
+    "id": "w_0324",
+    "text": "Kırmızı ışıkta herkesin acele ettiğini gördüm.",
+    "created_at_utc": "2026-07-10T14:22:00Z",
+    "local_hour": 14,
+    "voice_family": "adult_female",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "beklemek",
+    "demo_x": -0.9486,
+    "demo_y": 0.9394,
+    "is_user": false
+  },
+  {
+    "id": "w_0325",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-09-08T11:04:00Z",
+    "local_hour": 11,
+    "voice_family": "adult_male",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "iş",
+    "demo_x": 0.1398,
+    "demo_y": -0.7026,
+    "is_user": false
+  },
+  {
+    "id": "w_0326",
+    "text": "Kırmızı ışıkta herkesin acele ettiğini gördüm.",
+    "created_at_utc": "2026-07-21T06:08:00Z",
+    "local_hour": 6,
+    "voice_family": "girl",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "beklemek",
+    "demo_x": -0.2602,
+    "demo_y": -0.8668,
+    "is_user": false
+  },
+  {
+    "id": "w_0327",
+    "text": "Köpeğim bugün uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-09-14T10:15:00Z",
+    "local_hour": 10,
+    "voice_family": "adult_female",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.6216,
+    "demo_y": 0.0954,
+    "is_user": false
+  },
+  {
+    "id": "w_0328",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-09-25T02:28:00Z",
+    "local_hour": 2,
+    "voice_family": "adult_male",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "insanlar",
+    "demo_x": 0.6958,
+    "demo_y": -0.0486,
+    "is_user": false
+  },
+  {
+    "id": "w_0329",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-08-29T10:09:00Z",
+    "local_hour": 10,
+    "voice_family": "girl",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "şehir",
+    "demo_x": 0.0406,
+    "demo_y": -0.2764,
+    "is_user": false
+  },
+  {
+    "id": "w_0330",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-08-01T18:38:00Z",
+    "local_hour": 18,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "iş",
+    "demo_x": 0.2234,
+    "demo_y": -0.1366,
+    "is_user": false
+  },
+  {
+    "id": "w_0331",
+    "text": "Yağmur başlayınca sokak bir anda boşaldı.",
+    "created_at_utc": "2026-08-05T06:00:00Z",
+    "local_hour": 6,
+    "voice_family": "boy",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.9732,
+    "demo_y": 0.9684,
+    "is_user": false
+  },
+  {
+    "id": "w_0332",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-08-24T10:17:00Z",
+    "local_hour": 10,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.7192,
+    "demo_y": -0.882,
+    "is_user": false
+  },
+  {
+    "id": "w_0333",
+    "text": "Köpeğim bugün uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-08-20T00:45:00Z",
+    "local_hour": 0,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": 0.4278,
+    "demo_y": 0.2792,
+    "is_user": false
+  },
+  {
+    "id": "w_0334",
+    "text": "Uzun zamandır ilk kez sonbaharı hissettim.",
+    "created_at_utc": "2026-07-27T21:57:00Z",
+    "local_hour": 21,
+    "voice_family": "boy",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "zaman",
+    "demo_x": -0.343,
+    "demo_y": 0.467,
+    "is_user": false
+  },
+  {
+    "id": "w_0335",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-09-19T18:46:00Z",
+    "local_hour": 18,
+    "voice_family": "boy",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "aile",
+    "demo_x": -0.7212,
+    "demo_y": -0.3702,
+    "is_user": false
+  },
+  {
+    "id": "w_0336",
+    "text": "Kalabalığın içinde tek başına yemek yiyen birini gördüm.",
+    "created_at_utc": "2026-08-19T14:35:00Z",
+    "local_hour": 14,
+    "voice_family": "adult_female",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "yalnızlık",
+    "demo_x": 0.3346,
+    "demo_y": -0.8208,
+    "is_user": false
+  },
+  {
+    "id": "w_0337",
+    "text": "Vapurun arkasından gelen martıları izledim.",
+    "created_at_utc": "2026-08-13T19:26:00Z",
+    "local_hour": 19,
+    "voice_family": "adult_female",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.2878,
+    "demo_y": -0.1114,
+    "is_user": false
+  },
+  {
+    "id": "w_0338",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-09-14T11:44:00Z",
+    "local_hour": 11,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.9698,
+    "demo_y": 0.9482,
+    "is_user": false
+  },
+  {
+    "id": "w_0339",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-07-30T00:03:00Z",
+    "local_hour": 0,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.4262,
+    "demo_y": 0.1224,
+    "is_user": false
+  },
+  {
+    "id": "w_0340",
+    "text": "Bugün gökyüzü beklediğimden daha turuncuydu.",
+    "created_at_utc": "2026-08-22T12:59:00Z",
+    "local_hour": 12,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "doğa",
+    "demo_x": 0.1358,
+    "demo_y": 0.0098,
+    "is_user": false
+  },
+  {
+    "id": "w_0341",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-08-12T12:35:00Z",
+    "local_hour": 12,
+    "voice_family": "adult_female",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.8524,
+    "demo_y": -0.2218,
+    "is_user": false
+  },
+  {
+    "id": "w_0342",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-08-02T06:01:00Z",
+    "local_hour": 6,
+    "voice_family": "girl",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.8334,
+    "demo_y": -0.3716,
+    "is_user": false
+  },
+  {
+    "id": "w_0343",
+    "text": "Otobüs durağında insanlar yağmurdan birbirine sokuldu.",
+    "created_at_utc": "2026-08-22T22:42:00Z",
+    "local_hour": 22,
+    "voice_family": "boy",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.98,
+    "demo_y": -0.296,
+    "is_user": false
+  },
+  {
+    "id": "w_0344",
+    "text": "Kırmızı ışıkta herkesin acele ettiğini gördüm.",
+    "created_at_utc": "2026-08-31T05:49:00Z",
+    "local_hour": 5,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "beklemek",
+    "demo_x": -0.3382,
+    "demo_y": 0.7984,
+    "is_user": false
+  },
+  {
+    "id": "w_0345",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-09-24T10:48:00Z",
+    "local_hour": 10,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.0972,
+    "demo_y": 0.0576,
+    "is_user": false
+  },
+  {
+    "id": "w_0346",
+    "text": "Köpeğim uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-09-22T19:01:00Z",
+    "local_hour": 19,
+    "voice_family": "boy",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "hayvanlar",
+    "demo_x": 0.541,
+    "demo_y": -0.3004,
+    "is_user": false
+  },
+  {
+    "id": "w_0347",
+    "text": "Otobüs durağında insanlar yağmurdan birbirine sokuldu.",
+    "created_at_utc": "2026-08-31T14:51:00Z",
+    "local_hour": 14,
+    "voice_family": "adult_female",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.238,
+    "demo_y": 0.9882,
+    "is_user": false
+  },
+  {
+    "id": "w_0348",
+    "text": "Bir koku bana yıllar önceki bir evi hatırlattı.",
+    "created_at_utc": "2026-09-13T01:36:00Z",
+    "local_hour": 1,
+    "voice_family": "adult_male",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "hafıza",
+    "demo_x": -0.9878,
+    "demo_y": -0.378,
+    "is_user": false
+  },
+  {
+    "id": "w_0349",
+    "text": "Uzun zamandır ilk kez sonbaharı hissettim.",
+    "created_at_utc": "2026-08-03T21:19:00Z",
+    "local_hour": 21,
+    "voice_family": "boy",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "zaman",
+    "demo_x": -0.4692,
+    "demo_y": 0.1566,
+    "is_user": false
+  },
+  {
+    "id": "w_0350",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-09-09T01:51:00Z",
+    "local_hour": 1,
+    "voice_family": "boy",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.913,
+    "demo_y": -0.2776,
+    "is_user": false
+  },
+  {
+    "id": "w_0351",
+    "text": "Köpeğim bugün uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-07-03T07:57:00Z",
+    "local_hour": 7,
+    "voice_family": "adult_female",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.842,
+    "demo_y": 0.4122,
+    "is_user": false
+  },
+  {
+    "id": "w_0352",
+    "text": "Babam bugün eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-09-23T23:20:00Z",
+    "local_hour": 23,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.6536,
+    "demo_y": -0.8132,
+    "is_user": false
+  },
+  {
+    "id": "w_0353",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-08-26T20:41:00Z",
+    "local_hour": 20,
+    "voice_family": "adult_male",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "iş",
+    "demo_x": -0.2984,
+    "demo_y": 0.6396,
+    "is_user": false
+  },
+  {
+    "id": "w_0354",
+    "text": "Bir kedinin karşıya geçmesini arabalar bekledi.",
+    "created_at_utc": "2026-08-10T10:54:00Z",
+    "local_hour": 10,
+    "voice_family": "girl",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": 0.2902,
+    "demo_y": -0.818,
+    "is_user": false
+  },
+  {
+    "id": "w_0355",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-09-07T06:23:00Z",
+    "local_hour": 6,
+    "voice_family": "adult_female",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.2654,
+    "demo_y": -0.9738,
+    "is_user": false
+  },
+  {
+    "id": "w_0356",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-07-16T03:41:00Z",
+    "local_hour": 3,
+    "voice_family": "boy",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.746,
+    "demo_y": 0.7152,
+    "is_user": false
+  },
+  {
+    "id": "w_0357",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-07-21T16:14:00Z",
+    "local_hour": 16,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.064,
+    "demo_y": 0.1342,
+    "is_user": false
+  },
+  {
+    "id": "w_0358",
+    "text": "Otobüs durağında insanlar yağmurdan birbirine sokuldu.",
+    "created_at_utc": "2026-09-19T16:25:00Z",
+    "local_hour": 16,
+    "voice_family": "girl",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.512,
+    "demo_y": -0.2824,
+    "is_user": false
+  },
+  {
+    "id": "w_0359",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-09-20T08:20:00Z",
+    "local_hour": 8,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.5758,
+    "demo_y": -0.375,
+    "is_user": false
+  },
+  {
+    "id": "w_0360",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-07-11T18:15:00Z",
+    "local_hour": 18,
+    "voice_family": "boy",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "iş",
+    "demo_x": -0.3412,
+    "demo_y": 0.3618,
+    "is_user": false
+  },
+  {
+    "id": "w_0361",
+    "text": "Annemin saçlarının biraz daha beyazladığını fark ettim.",
+    "created_at_utc": "2026-07-01T19:10:00Z",
+    "local_hour": 19,
+    "voice_family": "adult_female",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "aile",
+    "demo_x": -0.4654,
+    "demo_y": -0.1728,
+    "is_user": false
+  },
+  {
+    "id": "w_0362",
+    "text": "Kırmızı ışıkta herkesin acele ettiğini gördüm.",
+    "created_at_utc": "2026-09-16T09:09:00Z",
+    "local_hour": 9,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "beklemek",
+    "demo_x": 0.385,
+    "demo_y": -0.3706,
+    "is_user": false
+  },
+  {
+    "id": "w_0363",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-09-25T04:30:00Z",
+    "local_hour": 4,
+    "voice_family": "girl",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.1684,
+    "demo_y": -0.112,
+    "is_user": false
+  },
+  {
+    "id": "w_0364",
+    "text": "Otobüs durağında insanlar yağmurdan birbirine sokuldu.",
+    "created_at_utc": "2026-09-15T18:35:00Z",
+    "local_hour": 18,
+    "voice_family": "girl",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "şehir",
+    "demo_x": 0.2092,
+    "demo_y": -0.4416,
+    "is_user": false
+  },
+  {
+    "id": "w_0365",
+    "text": "Uzun zamandır ilk kez sonbaharı hissettim.",
+    "created_at_utc": "2026-07-25T11:02:00Z",
+    "local_hour": 11,
+    "voice_family": "boy",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "zaman",
+    "demo_x": -0.5448,
+    "demo_y": 0.8358,
+    "is_user": false
+  },
+  {
+    "id": "w_0366",
+    "text": "Vapurun arkasından gelen martıları izledim.",
+    "created_at_utc": "2026-09-10T19:17:00Z",
+    "local_hour": 19,
+    "voice_family": "adult_female",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.5458,
+    "demo_y": -0.8076,
+    "is_user": false
+  },
+  {
+    "id": "w_0367",
+    "text": "Annemin saçlarının biraz daha beyazladığını fark ettim.",
+    "created_at_utc": "2026-08-24T13:34:00Z",
+    "local_hour": 13,
+    "voice_family": "girl",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.691,
+    "demo_y": 0.953,
+    "is_user": false
+  },
+  {
+    "id": "w_0368",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-09-02T06:23:00Z",
+    "local_hour": 6,
+    "voice_family": "adult_female",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.7392,
+    "demo_y": 0.2248,
+    "is_user": false
+  },
+  {
+    "id": "w_0369",
+    "text": "Vapurun arkasından gelen martıları izledim.",
+    "created_at_utc": "2026-09-15T13:41:00Z",
+    "local_hour": 13,
+    "voice_family": "adult_female",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.9722,
+    "demo_y": -0.129,
+    "is_user": false
+  },
+  {
+    "id": "w_0370",
+    "text": "gökyüzü beklediğimden daha turuncuydu.",
+    "created_at_utc": "2026-07-07T08:41:00Z",
+    "local_hour": 8,
+    "voice_family": "adult_female",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.6144,
+    "demo_y": -0.3196,
+    "is_user": false
+  },
+  {
+    "id": "w_0371",
+    "text": "Babam bugün eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-08-12T21:50:00Z",
+    "local_hour": 21,
+    "voice_family": "adult_male",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.849,
+    "demo_y": 0.971,
+    "is_user": false
+  },
+  {
+    "id": "w_0372",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-08-22T21:48:00Z",
+    "local_hour": 21,
+    "voice_family": "boy",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.8608,
+    "demo_y": 0.7842,
+    "is_user": false
+  },
+  {
+    "id": "w_0373",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-07-27T07:54:00Z",
+    "local_hour": 7,
+    "voice_family": "adult_female",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "doğa",
+    "demo_x": -0.6532,
+    "demo_y": 0.6914,
+    "is_user": false
+  },
+  {
+    "id": "w_0374",
+    "text": "Bir adamın vapurda bir çocuğa yer verdiğini gördüm.",
+    "created_at_utc": "2026-07-12T08:19:00Z",
+    "local_hour": 8,
+    "voice_family": "girl",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "insanlar",
+    "demo_x": 0.1186,
+    "demo_y": -0.0584,
+    "is_user": false
+  },
+  {
+    "id": "w_0375",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-09-01T22:46:00Z",
+    "local_hour": 22,
+    "voice_family": "girl",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "iş",
+    "demo_x": -0.81,
+    "demo_y": -0.4776,
+    "is_user": false
+  },
+  {
+    "id": "w_0376",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-09-15T00:57:00Z",
+    "local_hour": 0,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "iş",
+    "demo_x": 0.2308,
+    "demo_y": -0.5452,
+    "is_user": false
+  },
+  {
+    "id": "w_0377",
+    "text": "Uzun zamandır ilk kez sonbaharı hissettim.",
+    "created_at_utc": "2026-09-25T10:50:00Z",
+    "local_hour": 10,
+    "voice_family": "boy",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "zaman",
+    "demo_x": -0.3954,
+    "demo_y": -0.9734,
+    "is_user": false
+  },
+  {
+    "id": "w_0378",
+    "text": "Metroda herkesin aynı anda telefonuna baktığını fark ettim.",
+    "created_at_utc": "2026-07-11T17:45:00Z",
+    "local_hour": 17,
+    "voice_family": "girl",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.3266,
+    "demo_y": 0.7718,
+    "is_user": false
+  },
+  {
+    "id": "w_0379",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-09-09T23:01:00Z",
+    "local_hour": 23,
+    "voice_family": "adult_female",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "iş",
+    "demo_x": 0.5624,
+    "demo_y": -0.43,
+    "is_user": false
+  },
+  {
+    "id": "w_0380",
+    "text": "Köpeğim bugün uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-09-21T03:08:00Z",
+    "local_hour": 3,
+    "voice_family": "adult_female",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.2214,
+    "demo_y": -0.3104,
+    "is_user": false
+  },
+  {
+    "id": "w_0381",
+    "text": "Babam bugün eski fotoğrafları uzun uzun inceledi.",
+    "created_at_utc": "2026-07-08T10:47:00Z",
+    "local_hour": 10,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.4868,
+    "demo_y": -0.7634,
+    "is_user": false
+  },
+  {
+    "id": "w_0382",
+    "text": "Kalabalığın içinde tek başına yemek yiyen birini gördüm.",
+    "created_at_utc": "2026-08-30T20:44:00Z",
+    "local_hour": 20,
+    "voice_family": "adult_female",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "yalnızlık",
+    "demo_x": -0.4928,
+    "demo_y": -0.1736,
+    "is_user": false
+  },
+  {
+    "id": "w_0383",
+    "text": "Bugün gökyüzü beklediğimden daha turuncuydu.",
+    "created_at_utc": "2026-07-22T14:33:00Z",
+    "local_hour": 14,
+    "voice_family": "girl",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "doğa",
+    "demo_x": 0.5664,
+    "demo_y": -0.413,
+    "is_user": false
+  },
+  {
+    "id": "w_0384",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-08-07T11:31:00Z",
+    "local_hour": 11,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.7174,
+    "demo_y": -0.25,
+    "is_user": false
+  },
+  {
+    "id": "w_0385",
+    "text": "Bir kedinin karşıya geçmesini arabalar bekledi.",
+    "created_at_utc": "2026-09-04T15:37:00Z",
+    "local_hour": 15,
+    "voice_family": "boy",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": 0.1978,
+    "demo_y": 0.652,
+    "is_user": false
+  },
+  {
+    "id": "w_0386",
+    "text": "Ofiste herkes sustuğunda klavye seslerini fark ettim.",
+    "created_at_utc": "2026-09-24T02:00:00Z",
+    "local_hour": 2,
+    "voice_family": "boy",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "iş",
+    "demo_x": 0.9822,
+    "demo_y": -0.0398,
+    "is_user": false
+  },
+  {
+    "id": "w_0387",
+    "text": "Bugün gökyüzü beklediğimden daha turuncuydu.",
+    "created_at_utc": "2026-09-14T14:29:00Z",
+    "local_hour": 14,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.2036,
+    "demo_y": 0.7714,
+    "is_user": false
+  },
+  {
+    "id": "w_0388",
+    "text": "Annemin saçlarının biraz daha beyazladığını fark ettim.",
+    "created_at_utc": "2026-09-15T06:25:00Z",
+    "local_hour": 6,
+    "voice_family": "adult_female",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.095,
+    "demo_y": 0.898,
+    "is_user": false
+  },
+  {
+    "id": "w_0389",
+    "text": "Köpeğim bugün uzun süre pencereden dışarı baktı.",
+    "created_at_utc": "2026-08-14T23:36:00Z",
+    "local_hour": 23,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "hayvanlar",
+    "demo_x": -0.0128,
+    "demo_y": -0.44,
+    "is_user": false
+  },
+  {
+    "id": "w_0390",
+    "text": "Kalabalığın içinde tek başına yemek yiyen birini gördüm.",
+    "created_at_utc": "2026-09-28T13:26:00Z",
+    "local_hour": 13,
+    "voice_family": "boy",
+    "city": "Bursa",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "yalnızlık",
+    "demo_x": 0.2868,
+    "demo_y": -0.8612,
+    "is_user": false
+  },
+  {
+    "id": "w_0391",
+    "text": "Otobüs durağında insanlar yağmurdan birbirine sokuldu.",
+    "created_at_utc": "2026-09-28T03:29:00Z",
+    "local_hour": 3,
+    "voice_family": "adult_male",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.186,
+    "demo_y": 0.5846,
+    "is_user": false
+  },
+  {
+    "id": "w_0392",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-07-10T01:57:00Z",
+    "local_hour": 1,
+    "voice_family": "adult_female",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "aile",
+    "demo_x": 0.5714,
+    "demo_y": 0.7432,
+    "is_user": false
+  },
+  {
+    "id": "w_0393",
+    "text": "Kaldırımın arasından çıkan küçük bir çiçek gördüm.",
+    "created_at_utc": "2026-07-28T17:51:00Z",
+    "local_hour": 17,
+    "voice_family": "girl",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "doğa",
+    "demo_x": -0.8706,
+    "demo_y": -0.0382,
+    "is_user": false
+  },
+  {
+    "id": "w_0394",
+    "text": "Mahalledeki eski dükkânın kapandığını gördüm.",
+    "created_at_utc": "2026-09-27T05:09:00Z",
+    "local_hour": 5,
+    "voice_family": "girl",
+    "city": null,
+    "country_code": null,
+    "weather": null,
+    "demo_theme": "zaman",
+    "demo_x": -0.7322,
+    "demo_y": -0.8708,
+    "is_user": false
+  },
+  {
+    "id": "w_0395",
+    "text": "Annemin saçlarının biraz daha beyazladığını fark ettim.",
+    "created_at_utc": "2026-09-14T03:09:00Z",
+    "local_hour": 3,
+    "voice_family": "boy",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.4878,
+    "demo_y": 0.5144,
+    "is_user": false
+  },
+  {
+    "id": "w_0396",
+    "text": "Öğle arasında kimsenin gerçekten dinlenmediğini fark ettim.",
+    "created_at_utc": "2026-07-04T08:53:00Z",
+    "local_hour": 8,
+    "voice_family": "adult_female",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "iş",
+    "demo_x": -0.6276,
+    "demo_y": 0.1368,
+    "is_user": false
+  },
+  {
+    "id": "w_0397",
+    "text": "Vapurun arkasından gelen martıları izledim.",
+    "created_at_utc": "2026-07-28T08:32:00Z",
+    "local_hour": 8,
+    "voice_family": "boy",
+    "city": "Ankara",
+    "country_code": "TR",
+    "weather": {
+      "condition": "cloudy",
+      "temp_c": 17
+    },
+    "demo_theme": "şehir",
+    "demo_x": -0.2078,
+    "demo_y": 0.2544,
+    "is_user": false
+  },
+  {
+    "id": "w_0398",
+    "text": "Mahalledeki eski dükkânın kapandığını gördüm.",
+    "created_at_utc": "2026-09-11T12:04:00Z",
+    "local_hour": 12,
+    "voice_family": "girl",
+    "city": "İstanbul",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 21
+    },
+    "demo_theme": "zaman",
+    "demo_x": 0.7172,
+    "demo_y": 0.552,
+    "is_user": false
+  },
+  {
+    "id": "w_0399",
+    "text": "Kasadaki görevlinin yorgun olmasına rağmen gülümsediğini gördüm.",
+    "created_at_utc": "2026-08-11T08:47:00Z",
+    "local_hour": 8,
+    "voice_family": "adult_male",
+    "city": "İzmir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "rain",
+      "temp_c": 14
+    },
+    "demo_theme": "insanlar",
+    "demo_x": -0.6932,
+    "demo_y": -0.7826,
+    "is_user": false
+  },
+  {
+    "id": "w_0400",
+    "text": "Bir çocuğun annesinin elini hiç bırakmadığını gördüm.",
+    "created_at_utc": "2026-09-07T21:52:00Z",
+    "local_hour": 21,
+    "voice_family": "adult_male",
+    "city": "Eskişehir",
+    "country_code": "TR",
+    "weather": {
+      "condition": "clear",
+      "temp_c": 25
+    },
+    "demo_theme": "aile",
+    "demo_x": -0.1112,
+    "demo_y": -0.245,
+    "is_user": false
+  }
+]
