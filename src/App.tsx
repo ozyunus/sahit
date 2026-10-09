@@ -144,11 +144,19 @@ export default function App() {
   // If in exhibition mode, render standalone immersive view (Screen 9)
   if (currentView === 'exhibition') {
     return (
-      <ExhibitionView
-        onExitExhibition={() => setCurrentView('biz')}
-        onOpenComposer={() => setIsComposerOpen(true)}
-        onOpenQrPoster={() => setIsQrPosterOpen(true)}
-      />
+      <>
+        <ExhibitionView
+          onExitExhibition={() => setCurrentView('biz')}
+          onOpenComposer={() => setIsComposerOpen(true)}
+          onOpenQrPoster={() => setIsQrPosterOpen(true)}
+        />
+        {isComposerOpen && (
+          <WitnessComposer
+            onClose={() => setIsComposerOpen(false)}
+            onSuccess={handleComposerSuccess}
+          />
+        )}
+      </>
     );
   }
 

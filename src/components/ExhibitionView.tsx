@@ -98,11 +98,14 @@ export const ExhibitionView: React.FC<ExhibitionViewProps> = ({
       setVisibleWitnesses(latest.slice(0, MAX_EXHIBITION_NODES));
 
       if (latest.length > 0) {
+        const topOne = latest[0];
+        const ageMs = Date.now() - new Date(topOne.created_at_utc).getTime();
+        const isRecent = ageMs < 1000 * 60 * 30; // within 30 minutes
         setTimeout(() => {
           if (isMounted) {
-            runPresentationCycle(latest[0], false);
+            runPresentationCycle(topOne, isRecent);
           }
-        }, 1000);
+        }, 800);
       }
     });
 
