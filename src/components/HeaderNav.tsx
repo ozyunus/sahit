@@ -1,6 +1,6 @@
 import React from 'react';
 import { ViewMode } from '../types';
-import { Volume2, VolumeX, Sparkles, User, Users, PlusCircle, Maximize2, List, QrCode, Download } from 'lucide-react';
+import { Volume2, VolumeX, Sparkles, User, Users, PlusCircle, Maximize2, List, QrCode } from 'lucide-react';
 
 interface HeaderNavProps {
   currentView: ViewMode;
@@ -136,17 +136,6 @@ export const HeaderNav: React.FC<HeaderNavProps> = ({
           <Sparkles className="w-3 h-3 text-amber-300" />
           <span className="hidden sm:inline">HumanID</span>
         </button>
-
-        {/* Project ZIP Download */}
-        <a
-          href="/sahitlik-app.zip"
-          download="sahitlik-app.zip"
-          title="Tüm Proje Dosyalarını İndir (.ZIP)"
-          className="flex items-center gap-1.5 px-2.5 py-1.5 text-xs rounded-md bg-white/10 hover:bg-white/20 border border-white/15 text-white transition-all shadow-sm font-medium"
-        >
-          <Download className="w-3.5 h-3.5 text-amber-300" />
-          <span className="hidden sm:inline">İndir (.ZIP)</span>
-        </a>
       </div>
     </header>
   );

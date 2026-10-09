@@ -152,8 +152,12 @@ export default function App() {
         />
         {isComposerOpen && (
           <WitnessComposer
+            initialVoiceFamily={currentHuman?.voice_family || 'adult_female'}
             onClose={() => setIsComposerOpen(false)}
-            onSuccess={handleComposerSuccess}
+            onSuccess={() => {
+              setIsComposerOpen(false);
+              refreshData();
+            }}
           />
         )}
       </>
